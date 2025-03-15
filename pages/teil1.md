@@ -1,6 +1,6 @@
 ---
 title: headmater
-src: ./images/anatomie.md
+src: ./pages/anatomie.md
 ---
 
 ---
@@ -16,7 +16,7 @@ title: Arterien
  </ul>
 </div>
 <SlidevVideo autoplay>
-<source src="../assets/vid_arterien.mp4" type="video/mp4" />
+<source src="/videos/vid_arterien.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
@@ -42,11 +42,11 @@ layout: two-cols
 
 # Arterienverkalkung
 
-<img src="../assets/Arterienwand_normal.png" class="mt-15"/>
+<img src="/images/Arterienwand_normal.png" class="mt-15"/>
 
 ::right::
 
-<img src="../assets/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
+<img src="/images/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
 
 ---
 layout: image

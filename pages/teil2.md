@@ -1,29 +1,49 @@
+---
+title: meiden
+clicks: 2
+---
 
 <div class="grid grid-cols-2 gap-4">
-
-  ## Ernährung
-
-  <br>
-
-  <div class="relative mb-10">
-
-  ### Meiden
-
-  - Kohlenhydrate / Zucker
-  - Pflanzliche Öle
-    >industriell hergestellte Samenöle<br>
-    >Z.n. Sonnenblumenöl 
-
-  <img src="/images/raffinierte-kh.jpg" class="mt-6 ml-20 h-50"/>
-
-  </div>
-
   <div>
-    <img src="/images/sonnenblumenöl.webp" class="h-90"/>
+
+  # Ernährung
+  ## unbedingt meiden ...
+
+  <div class="mt-6 h-50">
+    <img src="/images/raffinierte-kh.jpg" />
+    <line-md:remove v-if="$clicks >= 1" class="abs-tl size-90 top-30 left-20" style="color: #d91d1d"/>
+    <div class="mt-6">Kohlenhydrate / Zucker</div>
   </div>
 </div>
 
+<div >
+  <line-md:remove v-if="$clicks >= 2" style="color: #d91d1d" class="abs-tr size-90 right-25 top-26"/>
+  <img src="/images/sonnenblumenöl.webp" class="size-100"/>
+  <div class="mt-6 ml-12">industriell hergestellte pflanzliche Öle<br>( z.B. Sonnenblumenöl )</div>
+  </div>
+</div>
 
+---
+
+# DGE-Ernährungs-
+# empfehlungen 2025
+
+<img src="/images/dge-ernaehrungskreis.webp" class="size-130 abs-tr top-5 right-10"/>
+<br>
+
+- überwiegend Kohlenhydrate und Zucker
+- balaststoffreich
+- wenig proteine
+- wenig fette
+
+<span class="abs-bl left-10 pb-4">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
+
+---
+title: Helsiki Businessmen Study
+layout: image
+image: /images/helsinki.png
+backgroundSize: 70%
+---
 
 ---
 layout: image-right
