@@ -6,8 +6,9 @@ clicks: 2
 <div class="grid grid-cols-2 gap-4">
   <div>
 
-  # Ernährung
-  ## unbedingt meiden ...
+# Ernährung
+
+## unbedingt meiden ...
 
   <div class="mt-6 h-50">
     <img src="/images/raffinierte-kh.jpg" />
@@ -26,6 +27,7 @@ clicks: 2
 ---
 
 # DGE-Ernährungs-
+
 # empfehlungen 2025
 
 <img src="/images/dge-ernaehrungskreis.webp" class="size-130 abs-tr top-5 right-10"/>
