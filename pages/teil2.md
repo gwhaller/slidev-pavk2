@@ -1,54 +1,33 @@
----
-layout: image
-image: /evolution.png
-backgroundSize: 80%
-class: bg-white  font-bold text-7xl tracking-tight text-center
-title: evolution
----
 
-<div class="-mt-6 p-2 bg-white text-blue-6">Evolution</div>
-<div class="mt-77 p-2 bg-white text-blue-6">macht uns krank ?</div>
+<div class="grid grid-cols-2 gap-4">
+
+  ## Ernährung
+
+  <br>
+
+  <div class="relative mb-10">
+
+  ### Meiden
+
+  - Kohlenhydrate / Zucker
+  - Pflanzliche Öle
+    >industriell hergestellte Samenöle<br>
+    >Z.n. Sonnenblumenöl 
+
+  <img src="/images/raffinierte-kh.jpg" class="mt-6 ml-20 h-50"/>
+
+  </div>
+
+  <div>
+    <img src="/images/sonnenblumenöl.webp" class="h-90"/>
+  </div>
+</div>
+
+
 
 ---
 layout: image-right
-image: /essen.avif
-clicks: 3
----
-
-## Ernährung
-
-<br>
-
-<div v-click=1 class="relative mb-10 makronaehrstoff">
-  <el-hand-right v-if="$clicks === 3" class="absolute top-8 left-60 motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-7 ml-10 text-yellow-5" />
-
-### Makronährstoffe
-
-- Proteine - Eiweiß
-- Kohlenhydrate
-- Fette
-
-</div>
-
-<div v-click=2>
-
-### Mikronährstoffe
-
-- Vitamine
-- Mineralien <span class="ml-6 text-sm">Kochsalz, Kalium, Calcium, Magnesium</span>
-- Spurenelemente
-
-</div>
-
-<style>
-.slidev-vclick-prior.makronaehrstoff {
-  opacity: 1.0 !important;
-}
-</style>
-
----
-layout: image-right
-image: /baustoffe.webp
+image: /images/baustoffe.webp
 ---
 
 # Proteine = Eiweiß
@@ -60,7 +39,7 @@ image: /baustoffe.webp
   <twemoji-cheese-wedge />
   <emojione-egg />
   <twemoji-beans />
-  <img src="/walnut.png" class="inline-block align-top"/>
+  <img src="/icons/walnut.png" class="inline-block align-top"/>
 </span>
 
 <br>
@@ -84,7 +63,7 @@ image: /baustoffe.webp
 
 ---
 layout: image-right
-image: /papier.avif
+image: /images/papier.avif
 ---
 
 ## Kohlenhydrate
@@ -99,9 +78,9 @@ image: /papier.avif
   <emojione-pizza />
   <twemoji-banana />
   <streamline-emojis-candy />
-  <img src="/ketchup.png" class="inline-block align-top"/>
+  <img src="/icons/ketchup.png" class="inline-block align-top"/>
   <noto-beverage-box />
-  <img src="/cola.png" class="inline-block align-top"/>
+  <img src="/icons/cola.png" class="inline-block align-top"/>
 </div>
 
 <br>
@@ -138,7 +117,7 @@ image: /papier.avif
 
 <div class="flex justify-between mb-20">
   <div v-click=1 class="flex space-x-2xl *:size-12">
-    <img class="size-12" src="/butter2.png"/>
+    <img class="size-12" src="/icons/butter2.png"/>
     <noto-v1-bacon/>
     <emojione-avocado/>
     <twemoji-coconut/>
@@ -157,7 +136,7 @@ image: /papier.avif
 
 <div class="flex justify-between">
   <div v-click=4  class="flex space-x-2xl *:size-12">
-    <img src="/olive-oil.png"/>
+    <img src="/icons/olive-oil.png"/>
     <openmoji-olive/>
     <emojione-v1-sunflower/>
     <twemoji-fish/>
@@ -168,15 +147,14 @@ image: /papier.avif
 </div>
 
 <div>
-  <img src="/kohle.webp" class="h-60"/>
-  <img src="/putzmittel.avif" class="h-54 mt-4"/>
-
+  <img src="/images/kohle.webp" class="h-60"/>
+  <img src="/images/putzmittel.avif" class="h-54 mt-4"/>
 </div>
 </div>
 
 ---
 layout: image-right
-image: /transfette.avif
+image: /images/transfette.avif
 ---
 
 ## Transfette <emojione-v1-black-skull-cross-bones class="ml-6"/>
@@ -209,7 +187,7 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
   <twemoji-cheese-wedge />
   <emojione-egg />
   <twemoji-beans />
-  <img src="/walnut.png" class="inline-block align-top"/>
+  <img src="/icons/walnut.png" class="inline-block align-top"/>
 </span>
 
 <v-clicks>
@@ -227,7 +205,7 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 
 </v-clicks>
 
-<img src="/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
+<img src="/images/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
 
 ---
 layout: two-cols
@@ -274,16 +252,16 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
   <emojione-pizza />
   <twemoji-banana />
   <streamline-emojis-candy />
-  <img src="/ketchup.png" class="inline-block align-top"/>
+  <img src="/icons/ketchup.png" class="inline-block align-top"/>
   <noto-beverage-box />
-  <img src="/cola.png" class="inline-block align-top"/>
+  <img src="/icons/cola.png" class="inline-block align-top"/>
 </div>
 <br><br>
 
 ### Natürlich vorkommende Kohlenhydrate
 
-<img src="/gute-kh.webp" class="abs-bl w-110 m-6 ml-10"/>
-<img src="/verdauung_kohlenhydrate.jpg" class="abs-br w-110 m-6 mr-10"/>
+<img src="/images/gute-kh.webp" class="abs-bl w-110 m-6 ml-10"/>
+<img src="/images/verdauung_kohlenhydrate.jpg" class="abs-br w-110 m-6 mr-10"/>
 
 ---
 
@@ -299,9 +277,9 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
   <emojione-pizza />
   <twemoji-banana />
   <streamline-emojis-candy />
-  <img src="/ketchup.png" class="inline-block align-top"/>
+  <img src="/icons/ketchup.png" class="inline-block align-top"/>
   <noto-beverage-box />
-  <img src="/cola.png" class="inline-block align-top"/>
+  <img src="/icons/cola.png" class="inline-block align-top"/>
 </div>
 <br>
 
@@ -309,9 +287,9 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
 
 #### Zucker = Mehl
 
-<img src="/raffinierte-kh.jpg" class="abs-bl w-93 m-6 ml-10"/>
+<img src="/images/raffinierte-kh.jpg" class="abs-bl w-93 m-6 ml-10"/>
 <div class="relativ">
-  <img src="/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
+  <img src="/images/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
   <!-- <fluent-emoji-cross-mark class="absolute size-10" /> -->
 </div>
 
@@ -323,7 +301,7 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
   <div class="text-2xl myt-4 mr-2">
     Kurze Geschichte des Zuckers
   </div>
-    <img src="/wuerfelzucker.png" class="inline-block align-top"/>
+    <img src="/icons/wuerfelzucker.png" class="inline-block align-top"/>
 </div>
 
 <v-clicks>
@@ -339,13 +317,13 @@ Lysin, Methionin, Isoleucin, Leucin, Phenylalanin, Threonin, Typtophan, Valin, H
 
 </v-clicks>
 
-  <img src="/zucker.jpg" class="abs-tr w-110 m-6 mr-10"/>
+  <img src="/images/zucker.jpg" class="abs-tr w-110 m-6 mr-10"/>
 
 ---
 clicks: 7
 ---
 
-## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
 
 ### <br>Zucker
 
@@ -368,19 +346,19 @@ clicks: 7
 
 </v-clicks>
 
-<img v-if="$clicks >= 2" src="/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
-<img v-if="$clicks >= 2" src="/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
-<img src="/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
+<img v-if="$clicks >= 2" src="/images/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
+<img v-if="$clicks >= 2" src="/images/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
+<img src="/images/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
 
 ---
 
-## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
 
 <oui-dot class="text-green-500 absolute text-3xl left-10 top-44" v-click="1" />
 <oui-dot class="text-yellow-500 absolute text-3xl left-10 top-78"  v-click="2"/>
 <oui-dot class="text-red-500 absolute text-3xl left-10 top-94"  v-click="3" />
 
-### moderater Zucker- und Mehl-Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
+### moderater Zucker- und Mehl-Konsum<img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
 
 <v-click>
 
@@ -389,7 +367,7 @@ clicks: 7
 
 </v-click>
 
-### <br>erhöhter Konsum<img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
+### <br>erhöhter Konsum<img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
 
 <v-click>
 
@@ -406,12 +384,12 @@ clicks: 7
 
 <div class="abs-br">
   <el-arrow-up v-if="$clicks >= 2" class="absolute text-blue-500 top-40 left-70 size-12 motion-translate-y-loop-25"/>
-  <img src="/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
+  <img src="/images/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
 </div>
 
 ---
 
-## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
 
 ## Prä-Diabetes
 
@@ -450,11 +428,11 @@ clicks: 7
 
 ---
 layout: image-right
-image: /zuckersucht.avif
+image: /images/zuckersucht.avif
 backgroundSize: 120%
 ---
 
-## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
 
 ### Raffinierte Kohlenhydrate<br> führen zur<br><span class="text-red-400">körperlichen und<br>seelischen Abhängigkeit</span><br><br>
 
@@ -467,11 +445,11 @@ backgroundSize: 120%
 
 ---
 layout: image-right
-image: /intervallfasten.jpg
+image: /images/intervallfasten.jpg
 backgroundSize: 100%
 ---
 
-## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br>
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br>
 
 ## Lösung aus der Zuckerfalle?
 
@@ -484,11 +462,11 @@ backgroundSize: 100%
 
 </v-clicks>
 
-  <img v-if="$clicks === 4" src="/intervallfasten2.jpg" class="abs-bl w-100 ml-18" />
+  <img v-if="$clicks === 4" src="/images/intervallfasten2.jpg" class="abs-bl w-100 ml-18" />
 
 ---
 layout: image
-image: /panik.jpg
+image: /images/panik.jpg
 backgroundSize: 150%
 clicks: 1
 title: Fette
@@ -498,12 +476,12 @@ title: Fette
 
 ---
 
-## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
 
-<img src="/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
-<img src="/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
-<img src="/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
-<img src="/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
+<img src="/images/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
+<img src="/images/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
+<img src="/images/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
+<img src="/images/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
 <span class="abs-tr text-red-500 mr-30 mt-20 text-2xl font-bold">Fettsäuren</span>
 <span class="abs-tr text-red-500 mr-30 mt-30 text-2xl font-bold">gesättigt</span>
 <span class="abs-tr text-red-500 mr-30 mt-81 text-2xl font-bold">ungesättigt</span>
@@ -511,9 +489,9 @@ title: Fette
 
 ---
 
-## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
 
-<img src="/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
+<img src="/images/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
 <span class="abs-tr text-red-500 mr-10 mt-45 text-2xl font-bold">Brennstoff</span>
 <span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
 
@@ -521,7 +499,7 @@ title: Fette
 
 ## Cholesterin
 
-<img src="/vgl_trigl_chol.jpg" class="abs-tl w-180 mt-30 ml-14" />
+<img src="/images/vgl_trigl_chol.jpg" class="abs-tl w-180 mt-30 ml-14" />
 
 ---
 
@@ -536,7 +514,7 @@ title: Fette
 
 ---
 layout: image
-image: /1961.jpg
+image: /images/1961.jpg
 backgroundSize: 40%
 title: Keys
 ---
@@ -567,7 +545,7 @@ title: Keys
 
 ---
 layout: image
-image: /Übergewicht-in-den-USA.jpg
+image: /images/Übergewicht-in-den-USA.jpg
 backgroundSize: 70%
 ---
 
@@ -579,9 +557,9 @@ backgroundSize: 70%
 
 <v-clicks>
 
-<img src="/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
-<img src="/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
-<img src="/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
+<img src="/images/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
+<img src="/images/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
+<img src="/images/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
 
 </v-clicks>
 
@@ -591,8 +569,8 @@ backgroundSize: 70%
 
 ### Kreislauf
 
-<img src="/Lipoproteinen.jpg" class="abs-tl w-100 mt-31 ml-14" />
-<img src="/bad_lp.png" class="abs-tr w-117 mt-28 mr-14" />
+<img src="/images/Lipoproteinen.jpg" class="abs-tl w-100 mt-31 ml-14" />
+<img src="/images/bad_lp.png" class="abs-tr w-117 mt-28 mr-14" />
 
 ---
 
@@ -602,15 +580,15 @@ backgroundSize: 70%
 
 <v-clicks>
 
-<img src="/chol1.jpg" class="abs-tl w-105 mt-45 ml-14" />
-<img src="/chol2.jpg" class="abs-tr w-105 mt-20 mr-14" />
-<img src="/chol3.jpg" class="abs-br w-105 mb-20 mr-14" />
+<img src="/images/chol1.jpg" class="abs-tl w-105 mt-45 ml-14" />
+<img src="/images/chol2.jpg" class="abs-tr w-105 mt-20 mr-14" />
+<img src="/images/chol3.jpg" class="abs-br w-105 mb-20 mr-14" />
 
 </v-clicks>
 
 ---
 layout: image
-image: /lp_test.png
+image: /images/lp_test.png
 backgroundSize: 50%
 ---
 
@@ -624,10 +602,10 @@ backgroundSize: 50%
 
 <v-clicks>
 
-<img src="/choldiät1.jpg" class="abs-tl w-105 mt-35 ml-14" />
-<img src="/choldiät2.jpg" class="abs-tr w-105 mt-35 mr-14" />
-<img src="/choldiät3.jpg" class="abs-bl w-105 mb-20 ml-14" />
-<img src="/choldiät4.jpg" class="abs-br w-105 mb-20 mr-14" />
+<img src="/images/choldiät1.jpg" class="abs-tl w-105 mt-35 ml-14" />
+<img src="/images/choldiät2.jpg" class="abs-tr w-105 mt-35 mr-14" />
+<img src="/images/choldiät3.jpg" class="abs-bl w-105 mb-20 ml-14" />
+<img src="/images/choldiät4.jpg" class="abs-br w-105 mb-20 mr-14" />
 
 </v-clicks>
 
@@ -639,10 +617,10 @@ backgroundSize: 50%
 
 <v-clicks>
 
-<img src="/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
-<img src="/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
-<img src="/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
-<img src="/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
+<img src="/images/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
+<img src="/images/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
+<img src="/images/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
+<img src="/images/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
 
 </v-clicks>
 
@@ -650,11 +628,11 @@ backgroundSize: 50%
 
 ## Lipoproteine
 
-<img src="/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
+<img src="/images/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
 
 ---
 layout: two-cols
-image: /sonnenblumenöl.webp
+image: /images/sonnenblumenöl.webp
 backgroundSize: 90%
 ---
 
@@ -662,7 +640,7 @@ backgroundSize: 90%
 
 #### Pflanzenöle
 
-<img src="/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
+<img src="/images/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
 
 ::right::
 
@@ -697,7 +675,7 @@ tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
 
 ---
 layout: image
-image: /Omega3.jpg
+image: /images/Omega3.jpg
 backgroundSize: 90%
 title: mehrfach us FS
 ---
@@ -707,7 +685,7 @@ title: mehrfach us FS
 
 ---
 layout: image
-image: /ox-LDL.jpg
+image: /images/ox-LDL.jpg
 backgroundSize: 70%
 title: ox-LDL
 ---
@@ -724,21 +702,21 @@ Ernährung
 
 <v-clicks>
 
-- <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
+- <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
 - <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
 
-- Vorsicht mit pflanzlichen Ölen <img src="/olive-oil.png" class="ml-2 mb-1 size-6 inline"/>
+- Vorsicht mit pflanzlichen Ölen <img src="/icons/olive-oil.png" class="ml-2 mb-1 size-6 inline"/>
   - Anreicherung im Körper
   - Oxidation bei Licht und Sauerstoff
-- keine Angst vor gesättigten Fetten <img class="size-8 ml-2 inline" src="/butter2.png"/>
+- keine Angst vor gesättigten Fetten <img class="size-8 ml-2 inline" src="/icons/butter2.png"/>
 - Vorsicht bei Fertignahrung <emojione-pizza class="ml-4 size-6" />
 
 </v-clicks>
 
 ::right::
 
-<img src="/suppe1.jpg" class="abs-tr w-60 mt-20 mr-80" />
-<img src="/suppe2.jpg" class="abs-tr w-60 mt-20 mr-14" />
+<img src="/images/suppe1.jpg" class="abs-tr w-60 mt-20 mr-80" />
+<img src="/images/suppe2.jpg" class="abs-tr w-60 mt-20 mr-14" />
 
 ---
 layout: center
@@ -753,21 +731,21 @@ class: text-center text-6xl
 
 ---
 layout: image
-image: /lege.png
+image: /images/lege.png
 backgroundSize: 70%
 title: Lege klärt auf
 ---
 
 ---
 layout: image
-image: /ernährungsdocs.png
+image: /images/ernährungsdocs.png
 backgroundSize: 70%
 title: Ernährungsdocs
 ---
 
 ---
 layout: image
-image: /Kochen-mit-Familie.jpg
+image: /images/Kochen-mit-Familie.jpg
 backgroundSize: 70%
 title: Kochen mit Familie
 ---

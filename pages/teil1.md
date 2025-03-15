@@ -1,5 +1,6 @@
 ---
-src: ./anatomie.md
+title: headmater
+src: ./images/anatomie.md
 ---
 
 ---
@@ -20,7 +21,7 @@ title: Arterien
 
 ---
 layout: image-left
-image: /plaque.avif
+image: /images/plaque.avif
 title: Erkrankungen
 ---
 
@@ -49,7 +50,7 @@ layout: two-cols
 
 ---
 layout: image
-image: /plaque.jpg
+image: /images/plaque.jpg
 title: Plaque
 ---
 
@@ -57,7 +58,7 @@ title: Plaque
 
 ---
 layout: image-left
-image: /schlaganfall.avif
+image: /images/schlaganfall.avif
 ---
 
 # Arterienverkalkung
@@ -66,7 +67,7 @@ image: /schlaganfall.avif
 
 ---
 layout: image-right
-image: /herz.jpg
+image: /images/herz.jpg
 title: Herzinfarkt
 ---
 
@@ -76,7 +77,7 @@ title: Herzinfarkt
 
 ---
 layout: image-right
-image: /wade.jpg
+image: /images/wade.jpg
 title: pAVK
 ---
 
@@ -100,7 +101,7 @@ title: pAVK
 
 ---
 layout: image
-image: /bahnhof.jpg
+image: /images/bahnhof.jpg
 title: Bahnhof
 ---
 
@@ -112,7 +113,7 @@ src: ./prognose_1.md
 
 ---
 layout: image-left
-image: /fuesse.avif
+image: /images/fuesse.avif
 ---
 
 # arterielle Verschlusskrankheit
@@ -134,7 +135,7 @@ image: /fuesse.avif
 
 ---
 layout: image-left
-image: /fusspulse.jpg
+image: /images/fusspulse.jpg
 clicks: 6
 ---
 
@@ -154,7 +155,7 @@ clicks: 6
 
 ---
 layout: image
-image: /abi-messung.jpg
+image: /images/abi-messung.jpg
 title: ABI
 ---
 
@@ -162,7 +163,7 @@ title: ABI
 
 ---
 layout: image
-image: /abi.jpg
+image: /images/abi.jpg
 title: ABI-Ausdruck
 ---
 
@@ -177,7 +178,7 @@ title: Ultraschall
 ---
 
 <SlidevVideo autoplay class="abs-tl">
-  <source src="/us.mp4" type="video/mp4" />
+  <source src="/videos/us.mp4" type="video/mp4" />
 </SlidevVideo>
 
 <div class="abs-bl bottom-10 !text-(shadow-lg 4xl) ">Ultraschall-Untersuchung</div>
@@ -187,12 +188,12 @@ layout: two-cols
 title: ct
 ---
 
-<img src="/ct.jpg" class="w-70"/>
+<img src="/images/ct.jpg" class="w-70"/>
 
 ::right::
 
 <SlidevVideo autoplay>
-  <source src="/3dct.mp4" type="video/mp4"/>
+  <source src="/videos/3dct.mp4" type="video/mp4"/>
 </SlidevVideo>
 
 ---
@@ -216,11 +217,11 @@ clicks: 4
 
 :: right::
 
-<img src="/amputation.gif" class="abs-tr h-full"/>
+<img src="/images/amputation.gif" class="abs-tr h-full"/>
 
 ---
 layout: image-right
-image: ./amputation.gif
+image: ./images/amputation.gif
 clicks: 4
 ---
 
@@ -245,15 +246,15 @@ title: gehtraining
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 5xl)">Gehtraining</div>
 
-<img src="/gehtraining.jpeg" class="object-cover h-full"/>
+<img src="/images/gehtraining.jpeg" class="object-cover h-full"/>
 
 ::right::
 
-<img src="/kollateralen.jpg" class="h-full"/>
+<img src="/images/kollateralen.jpg" class="h-full"/>
 
 ---
 layout: image
-image: /pta_illu.jpg
+image: /images/pta_illu.jpg
 backgroundSize: 60%
 ---
 
@@ -266,7 +267,7 @@ title: pta
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 6xl)">PTA</div>
 
 <SlidevVideo autoplay controls>
-  <source src="/pta.mp4" type="video/mp4" />
+  <source src="/videos/pta.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
@@ -274,7 +275,7 @@ title: Carotis-TEA
 ---
 
 <SlidevVideo autoplay class="abs-tl">
-  <source src="/carotis_tea.mp4" type="video/mp4" />
+  <source src="/videos/carotis_tea.mp4" type="video/mp4" />
 </SlidevVideo>
 
 <div class="abs-tl ml-40 mt-16 !text-(shadow-lg 6xl)">TEA</div>
@@ -283,7 +284,7 @@ title: Carotis-TEA
 
 ---
 layout: image
-image: /bypass_illu.jpg
+image: /images/bypass_illu.jpg
 backgroundSize: 50%
 ---
 
@@ -291,7 +292,7 @@ backgroundSize: 50%
 
 ---
 layout: image-right
-image: /avk.webp
+image: /images/avk.webp
 clicks: 6
 ---
 
@@ -320,7 +321,7 @@ clicks: 6
 </v-clicks>
 
   <div v-if="$clicks === 6" class="">
-    <img src="/klammer.png" class="absolute top-84 left-80 h-35 w-5 inline-block align-top" />
+    <img src="/icons/klammer.png" class="absolute top-84 left-80 h-35 w-5 inline-block align-top" />
     <span class="absolute top-97 left-88 text-2xl !opacity-100">Ernährung</span>
   </div>
 
