@@ -18,9 +18,7 @@ favicon: /favicon.ico
 
 ## = schicksalshafte Erkrankung?
 
-<div class='abs-bl m-6'>
-Klinik im Dialog - 09. Dezember 2024
-      </div>
+<div class='abs-bl m-6'>Klinik im Dialog - 09. Dezember 2024</div>
 
 ---
 src: ./pages/teil1.md

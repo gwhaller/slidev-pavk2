@@ -8,15 +8,15 @@ title: Arterien
 ---
 
 <div class="abs-tl ml-26 mt-20 !text-(shadow-lg 6xl)">
- <h1>Arterien</h1>
- <ul class="text-xl">
-  <li>Sauerstoff</li>
-  <li>Nährstoffe</li>
-  <li>alle Organe</li>
- </ul>
+  <h1>Arterien</h1>
+  <ul class="text-xl">
+    <li>Sauerstoff</li>
+    <li>Nährstoffe</li>
+    <li>alle Organe</li>
+  </ul>
 </div>
 <SlidevVideo autoplay>
-<source src="/videos/vid_arterien.mp4" type="video/mp4" />
+  <source src="/videos/vid_arterien.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
