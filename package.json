@@ -21,22 +21,6 @@
     "unocss-preset-tailwindcss-motion": "^4.0.1",
     "unplugin-icons": "^22.1.0"
   },
-  "prettier": {
-    "overrides": [
-      {
-        "files": [
-          "slides.md",
-          "pages/*.md"
-        ],
-        "options": {
-          "parser": "slidev",
-          "plugins": [
-            "prettier-plugin-slidev"
-          ]
-        }
-      }
-    ]
-  },
   "version": "1.0.0",
   "description": "To start the slide show:",
   "main": "index.js",

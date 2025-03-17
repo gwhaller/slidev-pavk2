@@ -1,5 +1,5 @@
 ---
-title: headmater
+title: anatomie
 src: ./anatomie.md
 ---
 
