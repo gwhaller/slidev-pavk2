@@ -48,6 +48,62 @@ clicks: 2
 <span class="abs-bl left-10 pb-4">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
 
 ---
+
+### Die Cholesterinhypothese
+
+<v-clicks>
+
+- 1913: Nikolai Anitschkow Kaninchen-Versuch mit tierischer Nahrung
+- 1950er: in den USA sterben bald eine halbe Million Menschen jedes Jahr an einem Herzinfarkt
+- 1955: US-Präsident Dwight D. Eisenhower einen Herzanfall, den er knapp überlebt
+- Ancel Keys (University of Minnesota): Diet-Heart-Hypothesis<br>
+  -> Vergleich vom Fettkonsom in 6-7 Länder in 2 Studien<br>
+- George Mann: Framingham-Heart-Study<br>
+  -> Massai-Krieger (Fleisch, Milch und Rinderblut) trotzdem keine Gefäßerkrankungen
+- 1970er: John Yudkin (University of London)<br>
+  sieht raffinierte Kohlenhydrate, insbesondere Zucker als das Hauptproblem
+- 1980 Dietary Guidelines (allen Menschen wird eine fettarme Ernährung empfohlen)<br>
+  - Margarine statt Butter, Fettarme Milch, Joghurt, Quark und Käse
+  - Seefisch und Nüsse werden zu "Dickmacher"
+  - Vermehrter Einsatz von raffinierten Speiseölen (reich an Omega-6 Fettsäuren) und Zucker
+- 2007 Professor Gardner A to Z Study - Low-Carb-Diät<br>
+  - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
+
+</v-clicks>
+
+---
+layout: image
+image: /images/folgen_den_richtlinien_1.jpeg
+backgroundSize: 30rem
+---
+
+---
+layout: image
+image: /images/folgen_den_richtlinien_2.jpeg
+backgroundSize: 30rem
+---
+
+---
+layout: image
+image: /images/folgen_den_richtlinien_3.jpeg
+backgroundSize: 30rem
+---
+
+---
+layout: image
+image: /images/folgen_den_richtlinien_4.jpg
+backgroundSize: 40rem
+---
+
+---
+layout: image
+image: /images/Übergewicht-in-den-USA.jpg
+backgroundSize: 70%
+---
+
+## Die Cholesterinhypothese
+
+---
 title: Helsiki Businessmen Study
 ---
 
@@ -104,13 +160,6 @@ title: Helsiki Businessmen Study
 </div>
 
 ---
-title: Tante Emma
-layout: image
-image: /images/TanteEmma.jpg
-backgroundSize: contain
----
-
----
 
 <br><br>
 
@@ -119,39 +168,18 @@ backgroundSize: contain
 # **Studien**
 
 ---
+title: Tante Emma
+layout: image
+image: /images/TanteEmma.jpg
+backgroundSize: contain
+---
+
+---
 layout: image
 image: /images/1961.jpg
 backgroundSize: 40%
 title: AncelKeys
 ---
-
----
-
-### Die Cholesterinhypothese
-
-<v-clicks>
-
-- 1913: Nikolai Anitschkow Kaninchen-Versuch mit tierischer Nahrung
-- 1950er: in den USA sterben bald eine halbe Million Menschen jedes Jahr an einem Herzinfarkt
-- 1955: US-Präsident Dwight D. Eisenhower einen Herzanfall, den er knapp überlebt
-- Ancel Keys (University of Minnesota): Diet-Heart-Hypothesis<br>
-  -> Vergleich vom Fettkonsom in 6-7 Länder in 2 Studien<br>
-- George Mann: Framingham-Heart-Study<br>
-  -> Massai-Krieger (Fleisch, Milch und Rinderblut) trotzdem keine Gefäßerkrankungen
-- 1970er: John Yudkin (University of London)<br>
-  sieht raffinierte Kohlenhydrate, insbesondere Zucker als das Hauptproblem
-- 1980 Dietary Guidelines (allen Menschen wird eine fettarme Ernährung empfohlen)<br>
-  - Margarine statt Butter, Fettarme Milch, Joghurt, Quark und Käse
-  - Seefisch und Nüsse werden zu "Dickmacher"
-  - Vermehrter Einsatz von raffinierten Speiseölen (reich an Omega-6 Fettsäuren) und Zucker
-- 2007 Professor Gardner A to Z Study - Low-Carb-Diät<br>
-  - Cholesterin stieg, Trigyceride halbiert, Gewichtsabnahme, Blutdruckabnahme
-
-</v-clicks>
-
----
-
-USA Statistiken
 
 ---
 
