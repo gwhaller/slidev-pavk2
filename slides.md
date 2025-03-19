@@ -21,10 +21,6 @@ favicon: /favicon.ico
 <div class='abs-bl m-6'>Klinik im Dialog - 24. März 2025</div>
 
 ---
-src: ./pages/teil1.md
----
-
----
 src: ./pages/teil2.md
 ---
 

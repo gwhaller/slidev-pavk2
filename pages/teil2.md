@@ -31,6 +31,14 @@ clicks: 2
 # Ernährungsempfehlungen
 
 ---
+title: Dynamisches SVG Kuchendiagramm
+---
+
+<div class="relative mt-20">
+  <PieChart class="abs-tl":percentages="[10, 30, 60]"></PieChart>
+</div>
+
+---
 
 # DGE-Ernährungs-
 
