@@ -31,29 +31,57 @@ clicks: 2
 # Ernährungsempfehlungen
 
 ---
-title: Dynamisches SVG Kuchendiagramm
----
-
-<div class="relative mt-20">
-  <PieChart class="abs-tl":percentages="[10, 30, 60]"></PieChart>
-</div>
-
----
 
 # DGE-Ernährungs-
 
 # Empfehlungen 2025
 
-<img src="/images/dge-ernaehrungskreis.webp" class="size-130 abs-tr top-5 right-10"/>
+<img src="/images/dge-ernaehrungskreis.webp" class="size-120 abs-tr top-5 right-10"/>
 <br>
 
-- überwiegend Kohlenhydrate und Zucker
+<v-clicks>
+
+- überwiegend Kohlenhydrate bzw Zucker
 - balaststoffreich
 - viel Getreide
 - wenig Proteine
 - wenig Fette
 
-<span class="abs-bl left-10 pb-4">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
+</v-clicks>
+
+<v-click>
+  <PieChart :percentages="[85, 5, 10]"></PieChart>
+</v-click>
+
+<span class="abs-br p-4">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
+
+---
+title: Tante Emma
+layout: image
+image: /images/TanteEmma.jpg
+backgroundSize: contain
+---
+
+---
+title: Rauchen ist gesund
+layout: image
+image: /images/rauchen.webp
+backgroundSize: contain
+---
+
+---
+title: Eisenhauer
+layout: image
+image: /images/eisenhauer.jpg
+backgroundSize: contain
+---
+
+---
+title: Ancel Keys
+layout: image
+image: /images/1961.jpg
+backgroundSize: contain
+---
 
 ---
 
@@ -84,6 +112,29 @@ layout: image
 image: /images/folgen_den_richtlinien_1.jpeg
 backgroundSize: 30rem
 ---
+
+<div class="abs-tr mr-20 mt-41 text-blue-2">
+  <v-clicks>
+
+  <div>+ frisches Gemüse</div>
+  <div class="mt-10">+ frisches Obst</div>
+  <div class="mt-6">+ Getreideprodukte</div>
+  <div class="mt-8">+ pfanzliche Öle</div>
+
+</v-clicks>
+</div>
+
+<div class="abs-tr mr-25 mt-80 text-red-2">
+  <v-clicks>
+
+  <div>- rotes Fleisch</div>
+  <div class="mt-3">- Vollmilch</div>
+  <div>- Eier</div>
+  <div>- tierische Fette</div>
+  <div>- Butter</div>
+
+</v-clicks>
+</div>
 
 ---
 layout: image
@@ -173,21 +224,29 @@ title: Helsiki Businessmen Study
 
 ## Das Problem mit den
 
-# **Studien**
+# **Genetik**
 
 ---
-title: Tante Emma
+title: Massai
 layout: image
-image: /images/TanteEmma.jpg
+image: /images/massai.jpg
 backgroundSize: contain
 ---
 
 ---
+title: Inuit
 layout: image
-image: /images/1961.jpg
-backgroundSize: 40%
-title: AncelKeys
+image: /images/inuit.jpg
+backgroundSize: contain
 ---
+
+---
+
+<br><br>
+
+## Das Problem mit den
+
+# **Studien**
 
 ---
 
@@ -212,26 +271,12 @@ title: biochemie
 ---
 
 ---
-title: Massai
-layout: image
-image: /images/massai.jpg
-backgroundSize: contain
----
-
----
-title: Inuit
-layout: image
-image: /images/inuit.jpg
-backgroundSize: contain
----
-
----
 
 <br><br>
 
 ## Das Problem mit den
 
-# **Proteinen**
+# **Nährstoffen**
 
 ---
 layout: image-right
