@@ -249,6 +249,53 @@ backgroundSize: contain
 # **Studien**
 
 ---
+title: Studien
+---
+
+<br><br>
+
+# ???
+
+<v-clicks>
+
+- wer hat die Studie finanziert
+- Studiendesign
+  - retrospective vs prospekive Studie
+  - größe der Studie
+  - womit wird verglichen
+  - Untersuchungszeitraum
+- Offenlegung aller Ergebnisse
+- Wiederholbarkeit der Ergebnisse
+- Interpretation der Ergebnisse
+
+</v-clicks>
+
+---
+title: Relatives Risiko
+layout: image
+image: /images/RelativesRisiko.png
+backgroundSize: contain
+---
+
+---
+title: Relatives Risiko
+---
+
+<br><br>
+
+# Ernährungsforschung
+
+<br><br>
+
+<v-clicks>
+
+## überwiegend **WERTLOS**
+
+## meist mißbraucht für Werbezwecke
+
+</v-clicks>
+
+---
 
 <br><br>
 
@@ -311,16 +358,9 @@ image: /images/baustoffe.webp
 - Enzyme
 - Hormone
 - Transport
+- mind 0,8mg pro kg KG am Tag
 
 </v-clicks>
-
----
-
-<br><br>
-
-## Das Problem mit den
-
-# **Fetten**
 
 ---
 
