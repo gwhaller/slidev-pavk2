@@ -418,6 +418,37 @@ image: /images/baustoffe.webp
 
 ---
 
+## Eiweiß - Proteine
+
+<span class="*:size-12 *:mx-2">
+  <twemoji-cut-of-meat />
+  <emojione-v1-fish />
+  <fluent-emoji-flat-glass-of-milk />
+  <twemoji-cheese-wedge />
+  <emojione-egg />
+  <twemoji-beans />
+  <img src="/icons/walnut.png" class="inline-block align-top"/>
+</span>
+
+<v-clicks>
+
+- Baumaterial
+- ca 20 % der Körpermasse
+- ca 50.000 verschiedene Eiweißstoffe im menschlichen Körper
+- Grundbausteine sind die 20 Aminosäuren
+- davon 9 Aminosäuren <span v-mark.underline.red="5">unentbehrlich</span> !
+  > Weizen fehlt es an der <span class="text-red-300 font-bold">Lysin</span><br>
+  > Hülsenfrüchten mangelt es an <span class="text-red-300 font-bold">Methionin</span>
+- Aufnahme behindert durch Magenschutztabletten
+- tgl ca 300 g Eiweiß recycled
+- überschüssige Eiweiße werden verbrannt
+
+</v-clicks>
+
+<img src="/images/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
+
+---
+
 <div class="grid grid-cols-2 gap-4">
 
 <div>
@@ -493,6 +524,56 @@ image: /images/transfette.avif
 In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Prozent Transfette enthalten. Seitdem ist die Zahl der Herzerkrankungen laut einer Studie deutlich zurückgegangen, um etwa 700 Todesfälle pro Jahr. In Deutschland gibt es derzeit keine gesetzlichen Regelungen für Transfette in Lebensmitteln.
 -->
 
+---
+layout: image
+image: /images/panik.jpg
+backgroundSize: 150%
+clicks: 1
+title: Fette
+---
+
+<div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
+
+---
+
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/images/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
+<img src="/images/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
+<img src="/images/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
+<img src="/images/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
+<span class="abs-tr text-red-500 mr-30 mt-20 text-2xl font-bold">Fettsäuren</span>
+<span class="abs-tr text-red-500 mr-30 mt-30 text-2xl font-bold">gesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-81 text-2xl font-bold">ungesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-118 text-2xl font-bold">mehrfach ungesättigt</span>
+
+---
+
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/images/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
+<span class="abs-tr text-red-500 mr-10 mt-45 text-2xl font-bold">Brennstoff</span>
+<span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
+
+---
+
+## Cholesterin
+
+<img src="/images/vgl_trigl_chol.jpg" class="abs-tl w-180 mt-30 ml-14" />
+
+---
+
+## Cholesterin
+
+- wird in der Leber produziert
+- notwendiger Baustein der Zellmembran
+- unverzichtbar bei der Verdauung
+- Grundbaustein bei der Hormonproduktion
+- Bildung von Vitamin-D
+- das Gehirn besteht zu 25% aus Cholesterin
+
+---
+
 <br><br>
 
 ## Das Problem mit den
@@ -538,6 +619,206 @@ image: /images/papier.avif
 </v-clicks>
 
 ---
+
+## Kohlenhydrate
+
+<div class="*:size-12 *:m-2" >
+  <emojione-baguette-bread />
+  <emojione-croissant />
+  <emojione-pancakes />
+  <noto-cooked-rice />
+  <emojione-spaghetti />
+  <emojione-hamburger />
+  <emojione-pizza />
+  <twemoji-banana />
+  <streamline-emojis-candy />
+  <img src="/icons/ketchup.png" class="inline-block align-top"/>
+  <noto-beverage-box />
+  <img src="/icons/cola.png" class="inline-block align-top"/>
+</div>
+<br><br>
+
+### Natürlich vorkommende Kohlenhydrate
+
+<img src="/images/gute-kh.webp" class="abs-bl w-110 m-6 ml-10"/>
+<img src="/images/verdauung_kohlenhydrate.jpg" class="abs-br w-110 m-6 mr-10"/>
+
+---
+
+## Kohlenhydrate
+
+<div class="*:size-12 *:m-2" >
+  <emojione-baguette-bread />
+  <emojione-croissant />
+  <emojione-pancakes />
+  <noto-cooked-rice />
+  <emojione-spaghetti />
+  <emojione-hamburger />
+  <emojione-pizza />
+  <twemoji-banana />
+  <streamline-emojis-candy />
+  <img src="/icons/ketchup.png" class="inline-block align-top"/>
+  <noto-beverage-box />
+  <img src="/icons/cola.png" class="inline-block align-top"/>
+</div>
+<br>
+
+### Raffinierte Kohlenhydrate
+
+#### Zucker = Mehl
+
+<img src="/images/raffinierte-kh.jpg" class="abs-bl w-93 m-6 ml-10"/>
+<div class="relativ">
+  <img src="/images/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
+  <!-- <fluent-emoji-cross-mark class="absolute size-10" /> -->
+</div>
+
+---
+clicks: 7
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
+
+### <br>Zucker
+
+<v-clicks>
+
+- bevorzugte Energiequelle <twemoji-thinking-face class="size-8 ml-2" />
+- kann Gewebestrukturen schädigen<br>
+  -- karamellisieren (HbA1c)
+
+</v-clicks>
+
+### <br>Insulin
+
+<v-clicks>
+
+- Masthormon
+- schleust Zucker in die Zelle
+- fördert die Bildung von Fett
+- verhindert den Fettabbau
+
+</v-clicks>
+
+<img v-if="$clicks >= 2" src="/images/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
+<img v-if="$clicks >= 2" src="/images/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
+<img src="/images/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
+
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+
+<oui-dot class="text-green-500 absolute text-3xl left-10 top-44" v-click="1" />
+<oui-dot class="text-yellow-500 absolute text-3xl left-10 top-78"  v-click="2"/>
+<oui-dot class="text-red-500 absolute text-3xl left-10 top-94"  v-click="3" />
+
+### moderater Zucker- und Mehl-Konsum<img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><br>
+
+<v-click>
+
+- Nüchtern Insulin und Blutzucker im Normbereich<br>
+  <span class="ml-4">= gesund</span>
+
+</v-click>
+
+### <br>erhöhter Konsum<img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-6 ml-2"/>
+
+<v-click>
+
+- nüchtern-Insulin<mdi-arrow-up-thin class="text-xl" /> (bis 10x) Blutzucker normal<br>
+  <span class="ml-4">= Prä-Diabetes <span v-mark.underline.red="2">(viele Jahre unentdeckt)</span></span>
+
+</v-click>
+<v-click>
+
+- nüchtern-Insulin<mdi-arrow-up-thin class="text-xl" /> -Blutzucker<mdi-arrow-up-thin class="text-xl" /> <br>
+  <span class="ml-4">= Diabetes</span>
+
+</v-click>
+
+<div class="abs-br">
+  <el-arrow-up v-if="$clicks >= 2" class="absolute text-blue-500 top-40 left-70 size-12 motion-translate-y-loop-25"/>
+  <img src="/images/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
+</div>
+
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
+
+## Prä-Diabetes
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+### <span class="text-red-300">Symptome</span>
+
+<v-clicks>
+
+- Gewichtsverlust oder Gewichtsabnahme
+- Heißhunger
+- Schwäche
+- Müdigkeit
+- Erhöhte Neigung zu Infektionen (Haut, Genitale, Harnwege)
+- Verzögerte Wundheilung
+
+</v-clicks>
+
+</div>
+<div>
+
+### <span class="text-red-300">Folgen</span>
+
+<v-clicks>
+
+- Bluthochdruck
+- Fettstoffwechselstörungen
+- Arterienverkalkungen
+- Diabetes
+
+</v-clicks>
+
+</div>
+</div>
+
+---
+layout: image-right
+image: /images/zuckersucht.avif
+backgroundSize: 120%
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
+
+### Raffinierte Kohlenhydrate<br> führen zur<br><span class="text-red-400">körperlichen und<br>seelischen Abhängigkeit</span><br><br>
+
+<v-clicks>
+
+- ### Dopamin-Ausschüttung
+- ### Insulin<mdi-arrow-up-thin class="text-2xl" /> blockiert Fettabbau<br><span v-mark.underline.red="2">Unterzucker</span>
+
+</v-clicks>
+
+---
+layout: image-right
+image: /images/intervallfasten.jpg
+backgroundSize: 100%
+---
+
+## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br>
+
+## Lösung aus der Zuckerfalle?
+
+<v-clicks>
+
+- ### Problem erkennen
+- ### raffinierte Zucker meiden
+- ### keine Angst vor Fetten
+- ### Intervallfasten
+
+</v-clicks>
+
+  <img v-if="$clicks === 4" src="/images/intervallfasten2.jpg" class="abs-bl w-100 ml-18" />
+
+---
 title: Vegan vs Karnivore
 layout: two-cols
 clicks: 4
@@ -565,8 +846,210 @@ clicks: 4
 
 ---
 
+
+---
+layout: two-cols
+---
+
+# Zusammenfassung
+
+## Gefäßgesundheit
+
+Ernährung
+
+<v-clicks>
+
+- <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
+- <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
+
+- Vorsicht mit pflanzlichen Ölen <img src="/icons/olive-oil.png" class="ml-2 mb-1 size-6 inline"/>
+  - Anreicherung im Körper
+  - Oxidation bei Licht und Sauerstoff
+- keine Angst vor gesättigten Fetten <img class="size-8 ml-2 inline" src="/icons/butter2.png"/>
+- Vorsicht bei Fertignahrung <emojione-pizza class="ml-4 size-6" />
+
+</v-clicks>
+
+::right::
+
+<img src="/images/suppe1.jpg" class="abs-tr w-60 mt-20 mr-80" />
+<img src="/images/suppe2.jpg" class="abs-tr w-60 mt-20 mr-14" />
+
+---
+layout: center
+class: text-center text-6xl
+---
+
+# <span class="text-6xl">Gesundheit</span>
+
+<div class="text-3xl m-8">ist</div>
+
+# <span class="text-6xl">Eigenverantwortung</span>
+
+---
+layout: image
+image: /images/lege.png
+backgroundSize: 70%
+title: Lege klärt auf
+---
+
+---
+layout: image
+image: /images/ernährungsdocs.png
+backgroundSize: 70%
+title: Ernährungsdocs
+---
+
+---
+layout: image
+image: /images/Kochen-mit-Familie.jpg
+backgroundSize: 70%
+title: Kochen mit Familie
+---
+
+---
+
 <br><br>
 
-## Das Problem mit den
+## Bonus
 
-# **Gewohnheiten**
+# **Cholesterin-Stoffwechsel**
+
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/images/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
+<img src="/images/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
+<img src="/images/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+### Kreislauf
+
+<img src="/images/Lipoproteinen.jpg" class="abs-tl w-100 mt-31 ml-14" />
+<img src="/images/bad_lp.png" class="abs-tr w-117 mt-28 mr-14" />
+
+---
+
+## Lipoproteine
+
+### Labortests
+
+<v-clicks>
+
+<img src="/images/chol1.jpg" class="abs-tl w-105 mt-45 ml-14" />
+<img src="/images/chol2.jpg" class="abs-tr w-105 mt-20 mr-14" />
+<img src="/images/chol3.jpg" class="abs-br w-105 mb-20 mr-14" />
+
+</v-clicks>
+
+---
+layout: image
+image: /images/lp_test.png
+backgroundSize: 50%
+---
+
+## Lipoproteine
+
+---
+
+## Lipoproteine
+
+### Einfluss der Ernährung
+
+<v-clicks>
+
+<img src="/images/choldiät1.jpg" class="abs-tl w-105 mt-35 ml-14" />
+<img src="/images/choldiät2.jpg" class="abs-tr w-105 mt-35 mr-14" />
+<img src="/images/choldiät3.jpg" class="abs-bl w-105 mb-20 ml-14" />
+<img src="/images/choldiät4.jpg" class="abs-br w-105 mb-20 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<span>Zuckerreiche Ernähung</span>
+
+<v-clicks>
+
+<img src="/images/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
+<img src="/images/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
+<img src="/images/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
+<img src="/images/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
+
+</v-clicks>
+
+---
+
+## Lipoproteine
+
+<img src="/images/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
+
+---
+layout: two-cols
+image: /images/sonnenblumenöl.webp
+backgroundSize: 90%
+---
+
+### mehrfach ungesättigte Fettsäuren
+
+#### Pflanzenöle
+
+<img src="/images/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
+
+::right::
+
+<fluent-color-warning-16 class="text-xl abs-tr mt-42 mr-125" />
+
+| Öl             | Linolsäure | Omega 6/3 |
+| -------------- | ---------- | --------- |
+| Erdnussöl      | 28%        | 182:1     |
+| Distelöl       | 70%        | 160:1     |
+| Traubenkernöl  | 70%        | 135:1     |
+| Sonnenblumenöl | 66%        | 120:1     |
+| Kürbiskernöl   | 50%        | 110:1     |
+| Maiskaimöl     | 60%        | 50:1      |
+| Sesamöl        | 45%        | 22:1      |
+| Olivenöl       | 10%        | 10:1      |
+| Sojaöl         | 55%        | 8:1       |
+| Weizenkeimöl   | 50%        | 7:1       |
+| Walnussöl      | 50%        | 4:1       |
+| Leinenöl       | 50%        | 3:1       |
+| Hanföl         | 50%        | 3:1       |
+| Rapsöl         | 20%        | 3:1       |
+| Reiskleieöl    | 30%        | 1:3       |
+
+<style>
+th, td {
+  font-size: 12px;
+  padding: 6px;
+  text-align: left;
+}
+tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
+</style>
+
+---
+layout: image
+image: /images/Omega3.jpg
+backgroundSize: 90%
+title: mehrfach us FS
+---
+
+<div class="bg-white abs-tl h-25 w-35 mt-9 ml-100" />
+<div class="text-black abs-tl mt-9 mx-60 px-2 text-3xl bg-yellow-200 text-bold">mehrfach ungesättigte Fettsäuren</div>
+
+---
+layout: image
+image: /images/ox-LDL.jpg
+backgroundSize: 70%
+title: ox-LDL
+---

@@ -23,7 +23,3 @@ favicon: /favicon.ico
 ---
 src: ./pages/teil2.md
 ---
-
----
-src: ./pages/teil3.md
----
