@@ -20,7 +20,7 @@ const animatedPercentages = ref(props.percentages.map(() => 0));
 
 // 🚀 Animation with `useTransition`
 const transition = useTransition(animatedPercentages, {
-  duration: 1000,
+  duration: 500,
   transition: [0.25, 0.1, 0.25, 1],
 });
 

@@ -53,7 +53,7 @@ clicks: 2
   <PieChart :percentages="[85, 5, 10]"></PieChart>
 </v-click>
 
-<span class="abs-br p-4">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
+<span class="abs-br py-4 pr-20">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
 
 ---
 title: Tante Emma
@@ -113,27 +113,25 @@ image: /images/folgen_den_richtlinien_1.jpeg
 backgroundSize: 30rem
 ---
 
-<div class="abs-tr mr-20 mt-41 text-blue-2">
+<span class="abs-tr mt-28 mr-8 text-2xl font-black">pro Kopf Verzehr</span>
+
+<div class="abs-tr mr-5 mt-41 font-black text-blue-1 text-xl">
   <v-clicks>
-
-  <div>+ frisches Gemüse</div>
-  <div class="mt-10">+ frisches Obst</div>
-  <div class="mt-6">+ Getreideprodukte</div>
-  <div class="mt-8">+ pfanzliche Öle</div>
-
-</v-clicks>
+    <div>+ frisches Gemüse</div>
+    <div class="mt-10">+ frisches Obst</div>
+    <div class="mt-6">+ Getreideprodukte</div>
+    <div class="mt-6">+ pflanzliche Öle<span class="text-red"> +87%</span></div>
+  </v-clicks>
 </div>
 
-<div class="abs-tr mr-25 mt-80 text-red-2">
+<div class="abs-tr mr-20 mt-80 text-red-2 text-xl font-black">
   <v-clicks>
-
-  <div>- rotes Fleisch</div>
-  <div class="mt-3">- Vollmilch</div>
-  <div>- Eier</div>
-  <div>- tierische Fette</div>
-  <div>- Butter</div>
-
-</v-clicks>
+    <div>- rotes Fleisch</div>
+    <div class="mt-3">- Vollmilch</div>
+    <div>- Eier</div>
+    <div>- tierische Fette</div>
+    <div>- Butter</div>
+  </v-clicks>
 </div>
 
 ---
@@ -142,17 +140,62 @@ image: /images/folgen_den_richtlinien_2.jpeg
 backgroundSize: 30rem
 ---
 
+<span class="abs-tr mt-20 mr-8 text-2xl font-black">Kalorien pro Kopf</span>
+
+<div class="abs-tr mr-14 mt-34 font-black text-blue-1 text-xl">
+  <v-clicks>
+    <div>+ Getreideprodukte</div>
+    <div class="abs-tl mt-5">+ pflanzliche Öle<span class="abs-tr -right-17 text-red"> +97%</span></div>
+    <div class="mt-12">+ zugesetzte Zucker</div>
+    <div class="mt-9">+ Obst u Gemüse</div>
+    <div class="mt-12">+ Nüssen</div>
+  </v-clicks>
+</div>
+
+<div class="abs-tr mr-20 mt-45 text-red-2 text-xl font-black">
+  <v-clicks>
+    <div>&nbsp;&nbsp;Fleisch u Eier</div>
+    <div class="mt-12">- Milchprodukte</div>
+    <div class="mt-12">- tierische Fette</div>
+  </v-clicks>
+</div>
+
 ---
 layout: image
 image: /images/folgen_den_richtlinien_3.jpeg
 backgroundSize: 30rem
 ---
 
+<span class="abs-tr mt-15 mr-8 text-2xl font-black">Kalorien pro Kopf</span>
+
+<div class="abs-tr mt-28 font-black text-blue-1 text-xl">
+  <v-clicks>
+  <div>+ gesamt</div>
+  <div class="mt-17">+ pflanzliche ohne Zucker</div>
+  <div class="mt-12">+ zugesetzte Zucker</div>
+  <div class="">+ Obst u Gemüse</div>
+</v-clicks>
+</div>
+
+<div class="abs-tr mr-10 mt-63 text-red-2 text-xl font-black">
+  <v-clicks>
+  <div>- tierische Produkte</div>
+</v-clicks>
+</div>
+
 ---
 layout: image
 image: /images/folgen_den_richtlinien_4.jpg
 backgroundSize: 40rem
 ---
+
+<div class="abs-tr right-2 mt-42 font-black text-white text-xl">
+  <v-clicks>
+  <div>+ Kohlenhydrate</div>
+  <div class="mt-17">- Fette</div>
+  <div class="mt-16">- gesättige Fette</div>
+</v-clicks>
+</div>
 
 ---
 layout: image
@@ -250,11 +293,13 @@ backgroundSize: contain
 
 ---
 title: Studien
+layout: image-right
+image: /images/finanzierung2.jpg
 ---
 
 <br><br>
 
-# ???
+# Studien
 
 <v-clicks>
 
@@ -271,6 +316,13 @@ title: Studien
 </v-clicks>
 
 ---
+title: Fragebogen
+layout: image
+image: /images/fragebogen.gif
+backgroundSize: contain
+---
+
+---
 title: Relatives Risiko
 layout: image
 image: /images/RelativesRisiko.png
@@ -279,6 +331,8 @@ backgroundSize: contain
 
 ---
 title: Relatives Risiko
+layout: image-left
+image: /images/roulette.jpg
 ---
 
 <br><br>
@@ -416,6 +470,28 @@ image: /images/baustoffe.webp
 </div>
 
 ---
+layout: image-right
+image: /images/transfette.avif
+---
+
+## Transfette <emojione-v1-black-skull-cross-bones class="ml-6"/>
+
+<v-clicks>
+
+- Pommes, Chicken Wings, Krapfen
+- Sonnenblumenölmargarine
+- Chips, Cornflakes
+- Wurst
+- Fertigsuppen
+- Müsliriegel
+- Cappuccino-Pulver
+- <span v-mark.underline.red="8">Fertiggerichte</span>
+
+</v-clicks>
+
+<!--
+In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Prozent Transfette enthalten. Seitdem ist die Zahl der Herzerkrankungen laut einer Studie deutlich zurückgegangen, um etwa 700 Todesfälle pro Jahr. In Deutschland gibt es derzeit keine gesetzlichen Regelungen für Transfette in Lebensmitteln.
+-->
 
 <br><br>
 
@@ -460,6 +536,32 @@ image: /images/papier.avif
 - Fett (langfristig)
 
 </v-clicks>
+
+---
+title: Vegan vs Karnivore
+layout: two-cols
+clicks: 4
+---
+
+<div class="abs-tl mx-auto mt-10 ml-30 text-5xl">Ernährung-Extreme</div>
+
+<div class="abs-tl mt-50 ml-30" >
+  <div class=" ml-12 mb-4 text-4xl">Vegan</div>
+  <v-click>
+    <PieChart :percentages="[70, 20, 10]" />
+    <span v-mark="{ at: 2, color: 'red', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent  mb-17 -mr-2">XXXXXXXXXXXXXX</span>
+  </v-click>
+</div>
+
+::right::
+
+<div  class="abs-tl mt-50 ml-130">
+  <div class=" ml-6 mb-4 text-4xl">Karnivore</div>
+  <v-click at="3">
+    <PieChart :percentages="[5,40, 55]" />
+        <span v-mark="{ at: 4, color: 'yellow', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent mr-12">XXXXXXXXX</span>
+  </v-click>
+</div>
 
 ---
 
