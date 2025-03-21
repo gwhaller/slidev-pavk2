@@ -525,6 +525,29 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 -->
 
 ---
+layout: image-left
+image: /images/sonnenblumenöl.webp
+backgroundSize: 85%
+---
+
+## Industriell hergestellte Samenöle (Sonnenblumenöl) <emojione-v1-black-skull-cross-bones class="ml-6"/>
+
+<v-clicks>
+
+- Presskuchen 140°C -> Öle
+- chemische Lösungsmittel -> Hexan/Waschbenzin
+- Phosphaten -> entschleimt
+- Natronlauge -> neutralisiert
+- Bleicherde
+- Desodoriert -> 270°C /60 Min
+- Haltbarkeit -> TBHQ, BHT oder BHA
+
+</v-clicks>
+
+---
+
+
+---
 layout: image
 image: /images/panik.jpg
 backgroundSize: 150%
