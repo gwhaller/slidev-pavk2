@@ -341,6 +341,14 @@ image: /images/finanzierung2.jpg
 </v-clicks>
 
 ---
+title: Mehrländerstudie
+---
+
+<SlidevVideo autoplay>
+  <source src="/videos/keys.mkv?url" type="video/mkv" />
+</SlidevVideo>
+
+---
 title: Fragebogen
 layout: image
 image: /images/fragebogen.gif
@@ -766,6 +774,7 @@ image: /images/papier.avif
 </div>
 
 ---
+title: Insulin
 clicks: 7
 ---
 
@@ -796,6 +805,8 @@ clicks: 7
 <img v-if="$clicks >= 2" src="/images/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
 <img src="/images/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
 
+---
+title: Nüchtern-BZ
 ---
 
 ## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span><br><br>
@@ -833,6 +844,15 @@ clicks: 7
   <img src="/images/insulin_kurve.png" class=" w-95 mr-20 mb-20" />
 </div>
 
+---
+title: Ärzteblatt
+layout: image
+image: /images/aerzteblatt.png
+backgroundSize: 38%
+---
+
+---
+title: Prädiabetes
 ---
 
 ## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
@@ -873,6 +893,7 @@ clicks: 7
 </div>
 
 ---
+title: Zuckersucht
 layout: image-right
 image: /images/zuckersucht.avif
 backgroundSize: 120%
@@ -888,13 +909,6 @@ backgroundSize: 120%
 - ### Insulin<mdi-arrow-up-thin class="text-2xl" /> blockiert Fettabbau<br><span v-mark.underline.red="2">Unterzucker</span>
 
 </v-clicks>
-
----
-title: Ärzteblatt
-layout: image
-image: /images/aerzteblatt.png
-backgroundSize: 38%
----
 
 ---
 layout: image-right
