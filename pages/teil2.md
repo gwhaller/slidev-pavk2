@@ -1,4 +1,16 @@
 ---
+title: -- Gesundheit ist Eigenverantwortung
+layout: center
+class: text-center text-6xl
+---
+
+# <span class="text-6xl">Gesundheit</span>
+
+<div class="text-3xl m-8">ist</div>
+
+# <span class="text-6xl">Eigenverantwortung</span>
+
+---
 title: meiden
 layout: two-cols
 clicks: 2
@@ -87,6 +99,8 @@ backgroundSize: contain
 ---
 
 ---
+title: -- Die Cholesterinhypothese
+---
 
 ### Die Cholesterinhypothese
 
@@ -111,6 +125,7 @@ backgroundSize: contain
 </v-clicks>
 
 ---
+title: folgen den Richtlinien 1
 layout: image
 image: /images/folgen_den_richtlinien_1.jpeg
 backgroundSize: 30rem
@@ -138,6 +153,7 @@ backgroundSize: 30rem
 </div>
 
 ---
+title: folgen den Richtlinien 2
 layout: image
 image: /images/folgen_den_richtlinien_2.jpeg
 backgroundSize: 30rem
@@ -164,6 +180,7 @@ backgroundSize: 30rem
 </div>
 
 ---
+title: folgen den Richtlinien 3
 layout: image
 image: /images/folgen_den_richtlinien_3.jpeg
 backgroundSize: 30rem
@@ -187,6 +204,7 @@ backgroundSize: 30rem
 </div>
 
 ---
+title: folgen den Richtlinien 4
 layout: image
 image: /images/folgen_den_richtlinien_4.jpg
 backgroundSize: 40rem
@@ -206,7 +224,7 @@ image: /images/Übergewicht-in-den-USA.jpg
 backgroundSize: 70%
 ---
 
-## Die Cholesterinhypothese
+## Die Amerikaner folgen den Ernährungsempfehlungen
 
 ---
 title: Helsiki Businessmen Study
@@ -265,10 +283,12 @@ title: Helsiki Businessmen Study
 </div>
 
 ---
+title: -- Das Problem mit der Genetik
+---
 
 <br><br>
 
-## Das Problem mit den
+## Das Problem mit der
 
 # **Genetik**
 
@@ -286,6 +306,8 @@ image: /images/inuit.jpg
 backgroundSize: contain
 ---
 
+---
+title: -- Das Problem mit den Studien
 ---
 
 <br><br>
@@ -353,6 +375,8 @@ image: /images/roulette.jpg
 </v-clicks>
 
 ---
+title: -- Das Problem mit den sekundären Pflanzenstoffen
+---
 
 <br><br>
 
@@ -374,6 +398,8 @@ backgroundSize: 100%
 title: biochemie
 ---
 
+---
+title: -- Das Problem mit den Nährstoffen
 ---
 
 <br><br>
@@ -451,6 +477,16 @@ image: /images/baustoffe.webp
 <img src="/images/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
 
 ---
+layout: image
+image: /images/panik.jpg
+backgroundSize: 150%
+clicks: 1
+title: Fette
+---
+
+<div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
+
+---
 
 <div class="grid grid-cols-2 gap-4">
 
@@ -504,6 +540,27 @@ image: /images/baustoffe.webp
 </div>
 
 ---
+
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/images/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
+<img src="/images/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
+<img src="/images/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
+<img src="/images/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
+<span class="abs-tr text-red-500 mr-30 mt-20 text-2xl font-bold">Fettsäuren</span>
+<span class="abs-tr text-red-500 mr-30 mt-30 text-2xl font-bold">gesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-81 text-2xl font-bold">ungesättigt</span>
+<span class="abs-tr text-red-500 mr-30 mt-118 text-2xl font-bold">mehrfach ungesättigt</span>
+
+---
+
+## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+
+<img src="/images/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
+<span class="abs-tr text-red-500 mr-10 mt-45 text-2xl font-bold">Brennstoff</span>
+<span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
+
+---
 layout: image-right
 image: /images/transfette.avif
 ---
@@ -548,35 +605,47 @@ backgroundSize: 85%
 </v-clicks>
 
 ---
-layout: image
-image: /images/panik.jpg
-backgroundSize: 150%
-clicks: 1
-title: Fette
+layout: two-cols
+image: /images/sonnenblumenöl.webp
+backgroundSize: 90%
 ---
 
-<div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
+### mehrfach ungesättigte Fettsäuren
 
----
+#### Pflanzenöle
 
-## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+<img src="/images/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
 
-<img src="/images/butter.jpg" class="abs-tl w-80 mt-30 ml-14" />
-<img src="/images/Öl.jpg" class="abs-tl w-80 mt-81 ml-14" />
-<img src="/images/fettsaeure_ges.jpg" class="abs-tr w-120 h-45 mt-30 mr-14" />
-<img src="/images/infachungesaettigte.jpg" class="abs-tr w-120 h-45 mt-81 mr-14" />
-<span class="abs-tr text-red-500 mr-30 mt-20 text-2xl font-bold">Fettsäuren</span>
-<span class="abs-tr text-red-500 mr-30 mt-30 text-2xl font-bold">gesättigt</span>
-<span class="abs-tr text-red-500 mr-30 mt-81 text-2xl font-bold">ungesättigt</span>
-<span class="abs-tr text-red-500 mr-30 mt-118 text-2xl font-bold">mehrfach ungesättigt</span>
+::right::
 
----
+<fluent-color-warning-16 class="text-xl abs-tr mt-42 mr-125" />
 
-## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
+| Öl             | Linolsäure | Omega 6/3 |
+| -------------- | ---------- | --------- |
+| Erdnussöl      | 28%        | 182:1     |
+| Distelöl       | 70%        | 160:1     |
+| Traubenkernöl  | 70%        | 135:1     |
+| Sonnenblumenöl | 66%        | 120:1     |
+| Kürbiskernöl   | 50%        | 110:1     |
+| Maiskaimöl     | 60%        | 50:1      |
+| Sesamöl        | 45%        | 22:1      |
+| Olivenöl       | 10%        | 10:1      |
+| Sojaöl         | 55%        | 8:1       |
+| Weizenkeimöl   | 50%        | 7:1       |
+| Walnussöl      | 50%        | 4:1       |
+| Leinenöl       | 50%        | 3:1       |
+| Hanföl         | 50%        | 3:1       |
+| Rapsöl         | 20%        | 3:1       |
+| Reiskleieöl    | 30%        | 1:3       |
 
-<img src="/images/Übersicht-Fettsäuren.jpg" class="abs-tl w-180 mt-30 ml-14" />
-<span class="abs-tr text-red-500 mr-10 mt-45 text-2xl font-bold">Brennstoff</span>
-<span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
+<style>
+th, td {
+  font-size: 12px;
+  padding: 6px;
+  text-align: left;
+}
+tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
+</style>
 
 ---
 
@@ -821,6 +890,13 @@ backgroundSize: 120%
 </v-clicks>
 
 ---
+title: Ärzteblatt
+layout: image
+image: /images/aerzteblatt.png
+backgroundSize: 38%
+---
+
+---
 layout: image-right
 image: /images/intervallfasten.jpg
 backgroundSize: 100%
@@ -848,6 +924,7 @@ clicks: 5
 ---
 
 <div class="abs-tl mt-10 ml-78 text-5xl">Ernährung</div>
+<div class="abs-tl mt-22 ml-86 text-3xl">2 Extreme</div>
 
 <div class="abs-tl mt-50 ml-30" >
   <div class=" ml-12 mb-4 text-4xl">Vegan &nbsp;<twemoji-broccoli /></div>
@@ -893,17 +970,7 @@ Ernährung
 
 <img src="/images/suppe1.jpg" class="abs-tr w-60 mt-20 mr-80" />
 <img src="/images/suppe2.jpg" class="abs-tr w-60 mt-20 mr-14" />
-
----
-layout: center
-class: text-center text-6xl
----
-
-# <span class="text-6xl">Gesundheit</span>
-
-<div class="text-3xl m-8">ist</div>
-
-# <span class="text-6xl">Eigenverantwortung</span>
+  <span v-mark="{ at: 5, color: 'red', type: 'circle', strokeWidth: '6' }" class="abs-tr text-transparent mt-50 mr-38">XXXXXXXXX</span>
 
 ---
 layout: image
@@ -1012,49 +1079,6 @@ backgroundSize: 50%
 ## Lipoproteine
 
 <img src="/images/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
-
----
-layout: two-cols
-image: /images/sonnenblumenöl.webp
-backgroundSize: 90%
----
-
-### mehrfach ungesättigte Fettsäuren
-
-#### Pflanzenöle
-
-<img src="/images/sonnenblumenöl.webp" class="abs-bl w-90 mb-5 ml-14" />
-
-::right::
-
-<fluent-color-warning-16 class="text-xl abs-tr mt-42 mr-125" />
-
-| Öl             | Linolsäure | Omega 6/3 |
-| -------------- | ---------- | --------- |
-| Erdnussöl      | 28%        | 182:1     |
-| Distelöl       | 70%        | 160:1     |
-| Traubenkernöl  | 70%        | 135:1     |
-| Sonnenblumenöl | 66%        | 120:1     |
-| Kürbiskernöl   | 50%        | 110:1     |
-| Maiskaimöl     | 60%        | 50:1      |
-| Sesamöl        | 45%        | 22:1      |
-| Olivenöl       | 10%        | 10:1      |
-| Sojaöl         | 55%        | 8:1       |
-| Weizenkeimöl   | 50%        | 7:1       |
-| Walnussöl      | 50%        | 4:1       |
-| Leinenöl       | 50%        | 3:1       |
-| Hanföl         | 50%        | 3:1       |
-| Rapsöl         | 20%        | 3:1       |
-| Reiskleieöl    | 30%        | 1:3       |
-
-<style>
-th, td {
-  font-size: 12px;
-  padding: 6px;
-  text-align: left;
-}
-tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
-</style>
 
 ---
 layout: image
