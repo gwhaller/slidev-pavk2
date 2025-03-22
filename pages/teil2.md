@@ -283,6 +283,13 @@ title: Helsiki Businessmen Study
 </div>
 
 ---
+title: Urlaub
+layout: image
+image: /images/helsinki_urlaub.png
+backgroundSize: contain
+---
+
+---
 title: -- Das Problem mit der Genetik
 ---
 
@@ -345,7 +352,7 @@ title: Mehrländerstudie
 ---
 
 <SlidevVideo autoplay>
-  <source src="/videos/keys.mkv?url" type="video/mkv" />
+  <source src="/videos/keys.mp4" type="video/mp4" />
 </SlidevVideo>
 
 ---
@@ -593,12 +600,23 @@ In Dänemark dürfen Lebensmittel bereits seit 15 Jahren nicht mehr als zwei Pro
 -->
 
 ---
-layout: image-left
-image: /images/sonnenblumenöl.webp
-backgroundSize: 85%
+title: Samenoel Herstellung
+layout: two-cols-header
 ---
 
 ## Industriell hergestellte Samenöle (Sonnenblumenöl) <emojione-v1-black-skull-cross-bones class="ml-6"/>
+
+::left::
+
+<SlidevVideo autoplay>
+  <source src="/videos/oel.mp4" type="video/mp4" />
+</SlidevVideo>
+
+::right::
+
+<div class="abs-tr mt-20">
+
+Herstellung:
 
 <v-clicks>
 
@@ -611,6 +629,17 @@ backgroundSize: 85%
 - Haltbarkeit -> TBHQ, BHT oder BHA
 
 </v-clicks>
+
+Es Entstehen:
+
+<v-clicks>
+
+- schädliche Esterverbindungen und Aldehyde
+- PAK
+- Stark oxidiertes Produkt
+
+</v-clicks>
+</div>
 
 ---
 layout: two-cols
