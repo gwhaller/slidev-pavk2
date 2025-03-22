@@ -90,7 +90,7 @@ title: pAVK
 
 <v-clicks>
 
-| Stadium | Bescherden           |
+| Stadium | Beschwerden          |
 | ------- | -------------------- |
 | I       | keine                |
 | II      | Schmerzen beim Gehen |
@@ -195,29 +195,6 @@ title: ct
 <SlidevVideo autoplay>
   <source src="/videos/3dct.mp4" type="video/mp4"/>
 </SlidevVideo>
-
----
-layout: two-cols
-clicks: 4
----
-
-## Behandlungsmöglichkeiten
-
-<v-clicks>
-
-- Gehtraining
-- PTA (Aufdehnen)
-- Operationen
-  - Ausschäl-Operation
-  - Bypass-Operation
-
-</v-clicks>
-
-<el-hand-right v-if="$clicks === 4" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
-
-:: right::
-
-<img src="/images/amputation.gif" class="abs-tr h-full"/>
 
 ---
 layout: image-right

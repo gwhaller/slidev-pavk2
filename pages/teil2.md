@@ -31,6 +31,8 @@ clicks: 2
 # Ernährungsempfehlungen
 
 ---
+clicks: 7
+---
 
 # DGE-Ernährungs-
 
@@ -50,7 +52,8 @@ clicks: 2
 </v-clicks>
 
 <v-click>
-  <PieChart :percentages="[85, 5, 10]"></PieChart>
+  <PieChart :percentages="[85, 5, 10]" :open="$clicks >=6"></PieChart>
+  <span v-mark="{ at: 7, color: 'red', type: 'circle', strokeWidth: '4' }" class="abs-bl text-transparent  mb-20 ml-66">XXXXXXXXXXXXXXXX</span>
 </v-click>
 
 <span class="abs-br py-4 pr-20">DGE (Deutsche Gesellschaft für Ernährung e.V.)</span>
@@ -545,9 +548,6 @@ backgroundSize: 85%
 </v-clicks>
 
 ---
-
-
----
 layout: image
 image: /images/panik.jpg
 backgroundSize: 150%
@@ -844,15 +844,15 @@ backgroundSize: 100%
 ---
 title: Vegan vs Karnivore
 layout: two-cols
-clicks: 4
+clicks: 5
 ---
 
-<div class="abs-tl mx-auto mt-10 ml-30 text-5xl">Ernährung-Extreme</div>
+<div class="abs-tl mt-10 ml-78 text-5xl">Ernährung</div>
 
 <div class="abs-tl mt-50 ml-30" >
-  <div class=" ml-12 mb-4 text-4xl">Vegan</div>
+  <div class=" ml-12 mb-4 text-4xl">Vegan &nbsp;<twemoji-broccoli /></div>
   <v-click>
-    <PieChart :percentages="[70, 20, 10]" />
+    <PieChart :percentages="[70, 20, 10]" :open="$clicks >= 1" />
     <span v-mark="{ at: 2, color: 'red', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent  mb-17 -mr-2">XXXXXXXXXXXXXX</span>
   </v-click>
 </div>
@@ -860,15 +860,11 @@ clicks: 4
 ::right::
 
 <div  class="abs-tl mt-50 ml-130">
-  <div class=" ml-6 mb-4 text-4xl">Karnivore</div>
-  <v-click at="3">
-    <PieChart :percentages="[5,40, 55]" />
-        <span v-mark="{ at: 4, color: 'yellow', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent mr-12">XXXXXXXXX</span>
-  </v-click>
+  <div class=" ml-6 mb-4 text-4xl">Karnivore &nbsp;<twemoji-cut-of-meat /></div>
+  <PieChart v-click="3" :percentages="[5,40, 55]" :shrink="$clicks >= 5" :open="$clicks >= 3" />
+  <span v-mark="{ at: 4, color: 'yellow', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent mr-12">XXXXXXXXX</span>
+  <span class="abs-tr text-2xl mt-24" v-click="5">hohe<br>Nährstoffdichte</span>
 </div>
-
----
-
 
 ---
 layout: two-cols
