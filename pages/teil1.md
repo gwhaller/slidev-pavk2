@@ -20,9 +20,9 @@ title: Arterien
 </SlidevVideo>
 
 ---
+title: Erkrankungen
 layout: image-left
 image: /images/plaque.avif
-title: Erkrankungen
 ---
 
 # Erkrankungen
@@ -49,9 +49,9 @@ layout: two-cols
 <img src="/images/Arterienwand_artheriosklerosis2.jpg" class="mt-20" />
 
 ---
+title: Plaque
 layout: image
 image: /images/plaque.jpg
-title: Plaque
 ---
 
 ## <span class="text-black font-bold text-5xl">Arterienverkalkung</span>
@@ -66,9 +66,9 @@ image: /images/schlaganfall.avif
 ## Schlaganfall
 
 ---
+title: Herzinfarkt
 layout: image-right
 image: /images/herz.jpg
-title: Herzinfarkt
 ---
 
 # Arterienverkalkung
@@ -76,9 +76,9 @@ title: Herzinfarkt
 ## Herzinfarkt
 
 ---
+title: pAVK
 layout: image-right
 image: /images/wade.jpg
-title: pAVK
 ---
 
 # Arterienverkalkung
@@ -100,9 +100,9 @@ title: pAVK
 </v-clicks>
 
 ---
+title: Bahnhof
 layout: image
 image: /images/bahnhof.jpg
-title: Bahnhof
 ---
 
 <div class="abs-bl left-10 bottom-10 !text-(shadow-lg 5xl)">arterielle Verschlusskrankheit</div>
@@ -154,17 +154,17 @@ clicks: 6
   <el-hand-right v-if="$clicks === 6" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
+title: ABI
 layout: image
 image: /images/abi-messung.jpg
-title: ABI
 ---
 
 <div class="abs-tl left-26 top-10 !text-(shadow-lg 4xl) text-black">ABI-Messung</div>
 
 ---
+title: ABI-Ausdruck
 layout: image
 image: /images/abi.jpg
-title: ABI-Ausdruck
 ---
 
 <!-- <span v-mark.circle.blue="1">Wunden</span> -->
@@ -184,8 +184,8 @@ title: Ultraschall
 <div class="abs-bl bottom-10 !text-(shadow-lg 4xl) ">Ultraschall-Untersuchung</div>
 
 ---
-layout: two-cols
 title: ct
+layout: two-cols
 ---
 
 <img src="/images/ct.jpg" class="w-70"/>
@@ -217,8 +217,8 @@ clicks: 4
 <el-hand-right v-if="$clicks === 4" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
-layout: two-cols
 title: gehtraining
+layout: two-cols
 ---
 
 <div class="abs-tl ml-20 mt-16 !text-(shadow-lg 5xl)">Gehtraining</div>

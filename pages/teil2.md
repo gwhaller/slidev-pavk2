@@ -400,17 +400,17 @@ title: -- Das Problem mit den sekundären Pflanzenstoffen
 # **sekundären Pflanzenstoffen**
 
 ---
+title: Sekundäre Pflanzenstoffe
 layout: image
 image: /images/sekundaerePflanzenstoffe.jpeg
 backgroundSize: 100%
-title: Sekundäre Pflanzenstoffe
 ---
 
 ---
+title: biochemie
 layout: image
 image: /images/Biochemie.jpeg
 backgroundSize: 100%
-title: biochemie
 ---
 
 ---
@@ -492,11 +492,11 @@ image: /images/baustoffe.webp
 <img src="/images/darm_eiweiss.jpg" class="abs-br w-130 p-4"/>
 
 ---
+title: Angst Fette
 layout: image
 image: /images/panik.jpg
 backgroundSize: 150%
 clicks: 1
-title: Fette
 ---
 
 <div v-if="$clicks === 1" class="abs-br mr-20 mb-16 !text-(shadow-lg 9xl) motion-preset-[pop slide-up focus] motion-delay-100 motion-preset-shake motion-delay-50">Fette</div>
@@ -555,6 +555,8 @@ title: Fette
 </div>
 
 ---
+title: gesättigte vs ungesättigte FS
+---
 
 ## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
 
@@ -568,6 +570,8 @@ title: Fette
 <span class="abs-tr text-red-500 mr-30 mt-118 text-2xl font-bold">mehrfach ungesättigt</span>
 
 ---
+title: alle FS
+---
 
 ## Fette<span class="ml-4 space-x-2"><img class="size-12 inline" src="/icons/butter2.png"/><noto-v1-bacon/><emojione-avocado/><twemoji-coconut/></span><br><br>
 
@@ -576,6 +580,7 @@ title: Fette
 <span class="abs-tr text-red-500 mr-12 mt-75 text-2xl font-bold">essentiell</span>
 
 ---
+title: Transfette
 layout: image-right
 image: /images/transfette.avif
 ---
@@ -642,6 +647,7 @@ Es Entstehen:
 </div>
 
 ---
+title: tabelle Omega 6
 layout: two-cols
 image: /images/sonnenblumenöl.webp
 backgroundSize: 90%
@@ -685,6 +691,8 @@ tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
 </style>
 
 ---
+title: FS vs Cholesterin
+---
 
 ## Cholesterin
 
@@ -701,6 +709,63 @@ tr:nth-child(n+1):nth-child(-n+6) {color: LightPink}
 - Bildung von Vitamin-D
 - das Gehirn besteht zu 25% aus Cholesterin
 
+---
+
+## Lipoproteine
+
+<v-clicks>
+
+<img src="/images/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
+<img src="/images/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
+<img src="/images/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
+
+</v-clicks>
+
+---
+title: Lipoprotein Kreislauf
+---
+
+## Lipoproteine
+
+### Kreislauf
+
+<img src="/images/bad_lp.png" class="abs-tl w-114 mt-36 ml-12" />
+<img src="/images/Lipoproteinen.jpg" class="abs-tr w-100 mt-38 mr-14" />
+
+---
+title: oxLDL
+---
+
+## Lipoproteine
+
+<span>Zuckerreiche Ernähung</span>
+
+<v-clicks>
+
+<img src="/images/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
+<img src="/images/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
+<img src="/images/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
+<img src="/images/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
+
+</v-clicks>
+
+---
+title: Schaumzellen
+---
+
+## Lipoproteine
+
+<img src="/images/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
+
+---
+title: neues Model ox-LDL
+layout: image
+image: /images/ox-LDL.jpg
+backgroundSize: 70%
+---
+
+---
+title: -- Das Problem mit den Kohlenhydraten
 ---
 
 <br><br>
@@ -1045,26 +1110,7 @@ title: Kochen mit Familie
 # **Cholesterin-Stoffwechsel**
 
 ---
-
-## Lipoproteine
-
-<v-clicks>
-
-<img src="/images/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
-<img src="/images/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
-<img src="/images/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
-
-</v-clicks>
-
----
-
-## Lipoproteine
-
-### Kreislauf
-
-<img src="/images/Lipoproteinen.jpg" class="abs-tl w-100 mt-31 ml-14" />
-<img src="/images/bad_lp.png" class="abs-tr w-117 mt-28 mr-14" />
-
+title: Lipoprotein Labortests1
 ---
 
 ## Lipoproteine
@@ -1080,6 +1126,7 @@ title: Kochen mit Familie
 </v-clicks>
 
 ---
+title: Lipoprotein KreislLabortests2
 layout: image
 image: /images/lp_test.png
 backgroundSize: 50%
@@ -1087,6 +1134,8 @@ backgroundSize: 50%
 
 ## Lipoproteine
 
+---
+title: Ernährung LDL/HDL
 ---
 
 ## Lipoproteine
@@ -1103,39 +1152,11 @@ backgroundSize: 50%
 </v-clicks>
 
 ---
-
-## Lipoproteine
-
-<span>Zuckerreiche Ernähung</span>
-
-<v-clicks>
-
-<img src="/images/ldl_typb.jpg" class="abs-tl w-90 mt-30 ml-14" />
-<img src="/images/gef_wand_1.jpg" class="abs-tr w-90 mt-30 mr-14" />
-<img src="/images/oxy_ldl2.jpg" class="abs-bl w-90 h-51 mb-5 ml-14" />
-<img src="/images/gef_wand_2.jpg" class="abs-br w-90 mb-5 mr-14" />
-
-</v-clicks>
-
----
-
-## Lipoproteine
-
-<img src="/images/chol_plaque.jpg" class="abs-tl w220 mt-25 ml-14" />
-
----
+title: mehrfach us FS
 layout: image
 image: /images/Omega3.jpg
 backgroundSize: 90%
-title: mehrfach us FS
 ---
 
 <div class="bg-white abs-tl h-25 w-35 mt-9 ml-100" />
 <div class="text-black abs-tl mt-9 mx-60 px-2 text-3xl bg-yellow-200 text-bold">mehrfach ungesättigte Fettsäuren</div>
-
----
-layout: image
-image: /images/ox-LDL.jpg
-backgroundSize: 70%
-title: ox-LDL
----

@@ -1,7 +1,7 @@
 ---
+title: Anatomie
 layout: image-right
 image: /anatomie.avif
-title: Anatomie
 ---
 
 ## Aufbau der Durchblutung
