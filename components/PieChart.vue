@@ -80,8 +80,8 @@ const arcs = computed(() => {
 <template>
   <div class="flex">
     <div
-      :class="{ 'scale-70': props.shrink, 'scale-100': !props.shrink }"
-      class="transition-transform duration-300"
+      :class="{ 'scale-60': props.shrink, 'scale-100': !props.shrink }"
+      class="transition-transform duration-1000"
     >
       <svg width="200" height="200" viewBox="0 0 100 100">
         <circle cx="50" cy="50" r="49" fill="#ddd" />

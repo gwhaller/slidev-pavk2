@@ -12,6 +12,7 @@ drawings:
 transition: slide-left
 mdc: true
 favicon: /favicon.ico
+lang: de-DE
 ---
 
 # Arterienverkalkungen und arterielle Verschlusskrankheit

@@ -35,15 +35,15 @@ clicks: 2
 </div>
 
 ---
-
+P
 <br><br>
-
 ## Das Problem mit den
 
 # Ernährungsempfehlungen
-
 ---
+
 clicks: 7
+
 ---
 
 # DGE-Ernährungs-
@@ -1014,6 +1014,8 @@ backgroundSize: 100%
 
 ## Lösung aus der Zuckerfalle?
 
+<br>
+
 <v-clicks>
 
 - ### Problem erkennen
@@ -1023,33 +1025,90 @@ backgroundSize: 100%
 
 </v-clicks>
 
-  <img v-if="$clicks === 4" src="/images/intervallfasten2.jpg" class="abs-bl w-100 ml-18" />
+---
+title: Intervallfasten
+layout: image
+image: /images/intervallfasten2.jpg
+---
+
+---
+title: -- Das Problem mit der Energie
+---
+
+<br><br>
+
+## Das Problem mit der
+
+# Energie
+
+---
+title: KH vs Fett
+layout: two-cols
+---
+
+<p class="text-2xl">Fette</p>
+<img src="/images/kokosoel.jpg" class="w-90" />
+<img src="/images/TierischeFette.jpg" class="mt-5 w-90" />
+
+::right::
+
+<p class="text-2xl">Kohlenhydrate</p>
+<img src="/images/kohlenhydrate.webp" class="w-90 h-50" />
+<img src="/images/milch.jpg" class="mt-5 w-90 h-52" />
 
 ---
 title: Vegan vs Karnivore
-layout: two-cols
-clicks: 5
+layout: two-cols-header
+tclicks: 7
 ---
 
-<div class="abs-tl mt-10 ml-78 text-5xl">Ernährung</div>
-<div class="abs-tl mt-22 ml-86 text-3xl">2 Extreme</div>
+<p class="text-center text-5xl">Ernährung</p>
+<p class="text-center text-3xl">2 Extreme</p>
 
-<div class="abs-tl mt-50 ml-30" >
-  <div class=" ml-12 mb-4 text-4xl">Vegan &nbsp;<twemoji-broccoli /></div>
+::left::
+
+<div>
+  <p class="text-center text-4xl">Vegan &nbsp;<twemoji-broccoli /></p>
   <v-click>
     <PieChart :percentages="[70, 20, 10]" :open="$clicks >= 1" />
-    <span v-mark="{ at: 2, color: 'red', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent  mb-17 -mr-2">XXXXXXXXXXXXXX</span>
+    <div v-mark="{ at: 2, color: 'red', type: 'circle', strokeWidth: '4' }" class="relative bottom-24 left-52 w-42 h-8" />
   </v-click>
 </div>
 
 ::right::
 
-<div  class="abs-tl mt-50 ml-130">
-  <div class=" ml-6 mb-4 text-4xl">Karnivore &nbsp;<twemoji-cut-of-meat /></div>
-  <PieChart v-click="3" :percentages="[5,40, 55]" :shrink="$clicks >= 5" :open="$clicks >= 3" />
-  <span v-mark="{ at: 4, color: 'yellow', type: 'circle', strokeWidth: '4' }" class="abs-br text-transparent mr-12">XXXXXXXXX</span>
-  <span class="abs-tr text-2xl mt-24" v-click="5">hohe<br>Nährstoffdichte</span>
+<div>
+  <p class="text-center text-4xl">Karnivore &nbsp;<twemoji-cut-of-meat /></p>
+  <PieChart v-click="3" :percentages="[5,40, 55]" :shrink="$clicks >= 7" :open="$clicks >= 3" />
+  <div v-mark="{ at: 4, color: 'yellow', type: 'circle', strokeWidth: '4' }" class="relative bottom-8 left-52 w-28 h-8" />
+  <div v-mark="{ at: 5, color: 'blue', type: 'circle', strokeWidth: '4' }" class="relative bottom-24 left-52 w-30 h-8" />
+  <div class="relative text-2xl bottom-6" >
+    <span v-click="6">hohe Nährstoffdichte</span>
+    <span v-click="7"> = weniger Hunger</span>
+  </div>
 </div>
+
+---
+layout: two-cols
+---
+
+# Zusammenfassung
+
+## Gesunde Ernährung
+
+<v-clicks class="text-2xl">
+
+- Proteine + Fette
+- extra Energie ?<br>
+  -> Kohlenhydrate / Zucker
+
+</v-clicks>
+
+<img v-click="1" src="/images/TierischeFette.jpg" class="scale-100" />
+
+::right::
+<img v-click="2" src="/images/kohlenhydrate2.jpg" class="abs-tr h-60 w-110" />
+<img v-click="1" src="/images/PflanzlicheProteine.webp" class="abs-br mb-8 h-60 w-110" />
 
 ---
 layout: two-cols
@@ -1066,9 +1125,9 @@ Ernährung
 - <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
 - <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
 
-- Vorsicht mit pflanzlichen Ölen <img src="/icons/olive-oil.png" class="ml-2 mb-1 size-6 inline"/>
   - Anreicherung im Körper
   - Oxidation bei Licht und Sauerstoff
+
 - keine Angst vor gesättigten Fetten <img class="size-8 ml-2 inline" src="/icons/butter2.png"/>
 - Vorsicht bei Fertignahrung <emojione-pizza class="ml-4 size-6" />
 
