@@ -5,7 +5,7 @@ layout: cover
 wakelock: true
 background: /images/wanderer.jpg
 titleTemplate: "%s"
-info: falses
+info: false
 class: text-left
 drawings:
   persist: false

@@ -229,7 +229,7 @@ backgroundSize: 70%
 ## Die Amerikaner folgen den Ernährungsempfehlungen
 
 ---
-title: Helsiki Businessmen Study
+title: Helsinki Businessmen Study
 ---
 
 <img src="/images/helsinki.png" class="w-170 abs-tl top-5 right-10"/>
@@ -339,7 +339,7 @@ image: /images/finanzierung2.jpg
 
 - wer hat die Studie finanziert
 - Studiendesign
-  - retrospective vs prospekive Studie
+  - retrospective vs prospektive Studie
   - Größe der Studie
   - womit wird verglichen
   - Untersuchungszeitraum
@@ -632,18 +632,18 @@ Herstellung:
 - Phosphaten -> entschleimt
 - Natronlauge -> neutralisiert
 - Bleicherde
-- Desodoriert -> 270°C /60 Min
+- desodoriert -> 270°C /60 Min
 - Haltbarkeit -> TBHQ, BHT oder BHA
 
 </v-clicks>
 
-Es Entstehen:
+Es entstehen:
 
 <v-clicks>
 
 - schädliche Esterverbindungen und Aldehyde
-- PAK
-- Stark oxidiertes Produkt
+- Kohlenwasserstoffe (PAK)
+- stark oxidiertes Produkt
 
 </v-clicks>
 </div>
@@ -961,7 +961,7 @@ title: Prädiabetes
 
 <v-clicks>
 
-- Gewichtsabnahme
+- Gewichtszunahme
 - Heißhunger
 - Schwäche
 - Müdigkeit
@@ -1002,7 +1002,7 @@ backgroundSize: 120%
 <v-clicks>
 
 - ### Dopamin-Ausschüttung
-- ### Insulin<mdi-arrow-up-thin class="text-2xl" /> blockiert Fettabbau<br><span v-mark.underline.red="2">Unterzucker</span>
+- ### Insulin<mdi-arrow-up-thin class="text-2xl" /> blockiert Fettabbau<br><span v-mark.underline.red="2">Energieversorgung <mdi-arrow-down-thin class="text-2xl" /></span>
 
 </v-clicks>
 
@@ -1148,12 +1148,13 @@ backgroundSize: 70%
 title: Lege klärt auf
 ---
 
----
-layout: image
-image: /images/ernährungsdocs.png
-backgroundSize: 70%
-title: Ernährungsdocs
----
+<div class="abs-bl p-8">
+
+## ZDFBesseresser
+
+## Lege klärt auf
+
+</div>
 
 ---
 layout: image
