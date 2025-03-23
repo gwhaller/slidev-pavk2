@@ -1,5 +1,5 @@
 ---
-title: anatomie
+title: Anatomie
 src: ./anatomie.md
 ---
 
@@ -123,7 +123,7 @@ image: /images/fuesse.avif
 <v-clicks>
 
 - <span v-mark.underline.red="1">Schmerzen</span> beim Gehen<br>
-  Füße, Wade, Oberschenkel, Gesäß, -einseitig
+  Füße, Waden, Oberschenkel, Gesäß, -einseitig
 - kühle, blasse oder marmorierte Haut
 - trockene Haut
 - starke Verhornung
@@ -166,8 +166,6 @@ title: ABI-Ausdruck
 layout: image
 image: /images/abi.jpg
 ---
-
-<!-- <span v-mark.circle.blue="1">Wunden</span> -->
 
 <span v-mark="{ at: 1, color: 'blue', type: 'circle', strokeWidth: '7' }" class="text-transparent abs-tl mt-108 ml-60">XXXXXXXX</span>
 <span v-mark="{ at: 2, color: 'blue', type: 'circle', strokeWidth: '7' }" class="text-transparent abs-tl mt-22 ml-60">XXXXXXXX</span>
@@ -217,7 +215,7 @@ clicks: 4
 <el-hand-right v-if="$clicks === 4" class="motion-translate-x-loop-25 motion-blur-in-sm size-10 mt-5 ml-6 text-yellow-5" v-click/>
 
 ---
-title: gehtraining
+title: Gehtraining
 layout: two-cols
 ---
 

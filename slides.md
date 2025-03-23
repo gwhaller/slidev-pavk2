@@ -17,7 +17,7 @@ lang: de-DE
 
 # Arterienverkalkungen und arterielle Verschlusskrankheit
 
-## = schicksalshafte Erkrankung?
+## = schicksalhafte Erkrankung?
 
 <div class='abs-bl m-6'>Klinik im Dialog - 24. März 2025</div>
 
