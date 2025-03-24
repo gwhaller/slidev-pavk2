@@ -719,7 +719,11 @@ title: FS vs Cholesterin
 
 <img src="/images/fett_wasser.jpg" class="abs-tl w-100 mt-20 ml-14" />
 <img src="/images/Aufbau-Lipo.jpg" class="abs-bl w-100 mb-3 ml-14" />
-<img src="/images/lipoproteine.webp" class="abs-tr w-110 mt-20 mr-14" />
+<img src="/images/lipoproteine.webp" class="abs-tr w-100 h-55 mt-20 mr-14" />
+
+<SlidevVideo autoplay class="abs-br w-100 mb-3 mr-14">
+  <source src="/videos/zellmembran.mp4" type="video/mp4" />
+</SlidevVideo>
 
 </v-clicks>
 
@@ -731,7 +735,7 @@ title: Lipoprotein Kreislauf
 
 ### Kreislauf
 
-<img src="/images/bad_lp.png" class="abs-tl w-114 mt-36 ml-12" />
+<img src="/images/bad_lp.png" class="abs-tl w-114 mb-3 ml-12" />
 <img src="/images/Lipoproteinen.jpg" class="abs-tr w-100 mt-38 mr-14" />
 
 ---
@@ -867,6 +871,10 @@ image: /images/papier.avif
 <div class="relativ">
   <img src="/images/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
 </div>
+
+---
+title: Zellmembran
+---
 
 ---
 title: Insulin
