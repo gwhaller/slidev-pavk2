@@ -1,4 +1,3 @@
-
 ---
 title: -- Gesundheit ist Eigenverantwortung
 layout: center
@@ -872,10 +871,6 @@ image: /images/papier.avif
 <div class="relativ">
   <img src="/images/verdauung_zucker.jpg" class="abs-br w-110 m-6 mr-10"/>
 </div>
-
----
-title: Zellmembran
----
 
 ---
 title: Insulin
