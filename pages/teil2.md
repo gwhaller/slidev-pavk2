@@ -1,3 +1,4 @@
+
 ---
 title: -- Gesundheit ist Eigenverantwortung
 layout: center
@@ -878,7 +879,6 @@ title: Zellmembran
 
 ---
 title: Insulin
-clicks: 7
 ---
 
 ## Kohlenhydrate<span class="ml-4 space-x-2"><emojione-baguette-bread class="size-12"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-12"/></span>
@@ -905,8 +905,9 @@ clicks: 7
 </v-clicks>
 
 <img v-if="$clicks >= 2" src="/images/Apfel-Karamell.png" class="abs-tr w-50 mt-14 mr-70"/>
-<img v-if="$clicks >= 2" src="/images/rezeptor.png" class="abs-tr w-45 mt-14 mr-20"/>
-<img src="/images/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" />
+<!-- <img v-if="$clicks >= 2" src="/images/zellmembran.gif" class="abs-tr w-45 mt-14 mr-20"/> -->
+<!-- <img src="/images/insulinrezeptor.jpg" class=" abs-br w-100 m-6 mr-20" v-if="$clicks === 7" /> -->
+<img src="/images/insulinrezeptor2.jpg" class=" abs-br w-100 h-70 m-6 mr-20" v-if="$clicks >= 2" />
 
 ---
 title: Nüchtern-BZ
