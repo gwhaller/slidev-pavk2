@@ -245,6 +245,25 @@ title: pta
   <source src="/videos/pta.mp4" type="video/mp4" />
 </SlidevVideo>
 
+<Arrow class="timed-fadeout" x1="500" y1="350" x2="440" y2="300" width="3" color="red" />
+
+<style>
+.timed-fadeout {
+  opacity: 1;
+  animation: fadeOut 18s forwards;
+}
+
+@keyframes fadeOut {
+  0%, 83.33% { /* 5/6 of the animation = 83.33% */
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+</style>
+
 ---
 title: Carotis-TEA
 ---
