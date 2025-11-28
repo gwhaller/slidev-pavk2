@@ -15,11 +15,11 @@ favicon: /favicon.ico
 lang: de-DE
 ---
 
-# Arterienverkalkungen und arterielle Verschlusskrankheit
+# Gefäßverkalkungen
 
-## = schicksalhafte Erkrankung?
+## könnte ich davon betroffen sein? Was wären die Folgen?
 
-<div class='abs-bl m-6'>Klinik im Dialog - 24. März 2025</div>
+<div class='abs-bl m-6'>Klinik im Dialog - 01. Dezember 2025</div>
 
 ---
 src: ./pages/teil1.md
