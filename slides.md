@@ -17,7 +17,7 @@ lang: de-DE
 
 # Gefäßverkalkungen
 
-## könnte ich davon betroffen sein? Was wären die Folgen?
+## Könnte ich davon betroffen sein? Was wären die Folgen?
 
 <div class='abs-bl m-6'>Klinik im Dialog - 01. Dezember 2025</div>
 
