@@ -35,6 +35,14 @@ clicks: 2
 </div>
 
 ---
+title: Was ist gesunde Ernährung ?
+---
+
+<br><br>
+
+# Was ist gesunde Ernährung ?
+
+---
 title: Das Problem mit den Ernährungsempfehlungen
 ---
 
@@ -1130,7 +1138,6 @@ Ernährung
 
 - <gg-arrow-down class="size-6 text-red-400" />raffinierte Kohlenhydrate <span class="ml-4 space-x-2"><emojione-baguette-bread class="size-8"/><img src="/icons/wuerfelzucker.png" class="inline-block align-top size-8"/></span><br>
 - <gg-arrow-down class="size-6  text-red-400" />raffinierte Pflanzenöle<twemoji-sunflower class="ml-4 size-8"/>
-
   - Anreicherung im Körper
   - Oxidation bei Licht und Sauerstoff
 
